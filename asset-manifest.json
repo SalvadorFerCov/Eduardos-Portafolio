@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pony-portafolio/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/pony-portafolio/static/js/main.aec8936b.chunk.js",
+    "main.js.map": "/pony-portafolio/static/js/main.aec8936b.chunk.js.map",
+    "runtime-main.js": "/pony-portafolio/static/js/runtime-main.8c032090.js",
+    "runtime-main.js.map": "/pony-portafolio/static/js/runtime-main.8c032090.js.map",
+    "static/js/2.2302218a.chunk.js": "/pony-portafolio/static/js/2.2302218a.chunk.js",
+    "static/js/2.2302218a.chunk.js.map": "/pony-portafolio/static/js/2.2302218a.chunk.js.map",
+    "static/js/3.c48f034e.chunk.js": "/pony-portafolio/static/js/3.c48f034e.chunk.js",
+    "static/js/3.c48f034e.chunk.js.map": "/pony-portafolio/static/js/3.c48f034e.chunk.js.map",
+    "index.html": "/pony-portafolio/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/pony-portafolio/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.2302218a.chunk.js.LICENSE.txt": "/pony-portafolio/static/js/2.2302218a.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/pony-portafolio/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c032090.js",
+    "static/js/2.2302218a.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.aec8936b.chunk.js"
+  ]
+}
