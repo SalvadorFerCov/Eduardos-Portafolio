@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Pony-Portafolio/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/Pony-Portafolio/static/js/main.aec8936b.chunk.js",
-    "main.js.map": "/Pony-Portafolio/static/js/main.aec8936b.chunk.js.map",
+    "main.js": "/Pony-Portafolio/static/js/main.9c71684a.chunk.js",
+    "main.js.map": "/Pony-Portafolio/static/js/main.9c71684a.chunk.js.map",
     "runtime-main.js": "/Pony-Portafolio/static/js/runtime-main.8eaa009a.js",
     "runtime-main.js.map": "/Pony-Portafolio/static/js/runtime-main.8eaa009a.js.map",
     "static/js/2.2302218a.chunk.js": "/Pony-Portafolio/static/js/2.2302218a.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.8eaa009a.js",
     "static/js/2.2302218a.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.aec8936b.chunk.js"
+    "static/js/main.9c71684a.chunk.js"
   ]
 }
