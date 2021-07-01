@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Pony-Portafolio/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/Pony-Portafolio/static/js/main.d86df13d.chunk.js",
-    "main.js.map": "/Pony-Portafolio/static/js/main.d86df13d.chunk.js.map",
-    "runtime-main.js": "/Pony-Portafolio/static/js/runtime-main.8eaa009a.js",
-    "runtime-main.js.map": "/Pony-Portafolio/static/js/runtime-main.8eaa009a.js.map",
-    "static/js/2.2302218a.chunk.js": "/Pony-Portafolio/static/js/2.2302218a.chunk.js",
-    "static/js/2.2302218a.chunk.js.map": "/Pony-Portafolio/static/js/2.2302218a.chunk.js.map",
-    "static/js/3.c48f034e.chunk.js": "/Pony-Portafolio/static/js/3.c48f034e.chunk.js",
-    "static/js/3.c48f034e.chunk.js.map": "/Pony-Portafolio/static/js/3.c48f034e.chunk.js.map",
-    "index.html": "/Pony-Portafolio/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/Pony-Portafolio/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.2302218a.chunk.js.LICENSE.txt": "/Pony-Portafolio/static/js/2.2302218a.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/Pony-Portafolio/static/media/logo.6ce24c58.svg"
+    "main.css": "/Eduardos-Portafolio/static/css/main.1635e87c.chunk.css",
+    "main.js": "/Eduardos-Portafolio/static/js/main.1a3ffbb3.chunk.js",
+    "main.js.map": "/Eduardos-Portafolio/static/js/main.1a3ffbb3.chunk.js.map",
+    "runtime-main.js": "/Eduardos-Portafolio/static/js/runtime-main.efc28083.js",
+    "runtime-main.js.map": "/Eduardos-Portafolio/static/js/runtime-main.efc28083.js.map",
+    "static/js/2.a8cbfb42.chunk.js": "/Eduardos-Portafolio/static/js/2.a8cbfb42.chunk.js",
+    "static/js/2.a8cbfb42.chunk.js.map": "/Eduardos-Portafolio/static/js/2.a8cbfb42.chunk.js.map",
+    "static/js/3.c28cea89.chunk.js": "/Eduardos-Portafolio/static/js/3.c28cea89.chunk.js",
+    "static/js/3.c28cea89.chunk.js.map": "/Eduardos-Portafolio/static/js/3.c28cea89.chunk.js.map",
+    "index.html": "/Eduardos-Portafolio/index.html",
+    "static/css/main.1635e87c.chunk.css.map": "/Eduardos-Portafolio/static/css/main.1635e87c.chunk.css.map",
+    "static/js/2.a8cbfb42.chunk.js.LICENSE.txt": "/Eduardos-Portafolio/static/js/2.a8cbfb42.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Eduardos-Portafolio/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8eaa009a.js",
-    "static/js/2.2302218a.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.d86df13d.chunk.js"
+    "static/js/runtime-main.efc28083.js",
+    "static/js/2.a8cbfb42.chunk.js",
+    "static/css/main.1635e87c.chunk.css",
+    "static/js/main.1a3ffbb3.chunk.js"
   ]
 }
