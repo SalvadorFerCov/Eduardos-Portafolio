@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 100vh;
+  width: 80vw;
+  color: white;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  height: 5vh;
+}
+
+.navBar li {
+  list-style: none;
+  margin: 15px;
+}
+.navBar li:hover {
+  cursor: pointer;
+}
+
+.data {
+  height: 95vh;
+  overflow: auto;
+}
