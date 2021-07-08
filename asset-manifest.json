@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Eduardos-Portafolio/static/css/main.02da3485.chunk.css",
-    "main.js": "/Eduardos-Portafolio/static/js/main.94067a46.chunk.js",
-    "main.js.map": "/Eduardos-Portafolio/static/js/main.94067a46.chunk.js.map",
-    "runtime-main.js": "/Eduardos-Portafolio/static/js/runtime-main.038bfbd0.js",
-    "runtime-main.js.map": "/Eduardos-Portafolio/static/js/runtime-main.038bfbd0.js.map",
-    "static/js/2.2fb1699b.chunk.js": "/Eduardos-Portafolio/static/js/2.2fb1699b.chunk.js",
-    "static/js/2.2fb1699b.chunk.js.map": "/Eduardos-Portafolio/static/js/2.2fb1699b.chunk.js.map",
-    "static/js/3.1db4e405.chunk.js": "/Eduardos-Portafolio/static/js/3.1db4e405.chunk.js",
-    "static/js/3.1db4e405.chunk.js.map": "/Eduardos-Portafolio/static/js/3.1db4e405.chunk.js.map",
+    "main.css": "/Eduardos-Portafolio/static/css/main.e53db856.chunk.css",
+    "main.js": "/Eduardos-Portafolio/static/js/main.a7dbf112.chunk.js",
+    "main.js.map": "/Eduardos-Portafolio/static/js/main.a7dbf112.chunk.js.map",
+    "runtime-main.js": "/Eduardos-Portafolio/static/js/runtime-main.63d04dbd.js",
+    "runtime-main.js.map": "/Eduardos-Portafolio/static/js/runtime-main.63d04dbd.js.map",
+    "static/js/2.a0a573b8.chunk.js": "/Eduardos-Portafolio/static/js/2.a0a573b8.chunk.js",
+    "static/js/2.a0a573b8.chunk.js.map": "/Eduardos-Portafolio/static/js/2.a0a573b8.chunk.js.map",
+    "static/js/3.47933821.chunk.js": "/Eduardos-Portafolio/static/js/3.47933821.chunk.js",
+    "static/js/3.47933821.chunk.js.map": "/Eduardos-Portafolio/static/js/3.47933821.chunk.js.map",
     "index.html": "/Eduardos-Portafolio/index.html",
-    "static/css/main.02da3485.chunk.css.map": "/Eduardos-Portafolio/static/css/main.02da3485.chunk.css.map",
-    "static/js/2.2fb1699b.chunk.js.LICENSE.txt": "/Eduardos-Portafolio/static/js/2.2fb1699b.chunk.js.LICENSE.txt"
+    "static/css/main.e53db856.chunk.css.map": "/Eduardos-Portafolio/static/css/main.e53db856.chunk.css.map",
+    "static/js/2.a0a573b8.chunk.js.LICENSE.txt": "/Eduardos-Portafolio/static/js/2.a0a573b8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.038bfbd0.js",
-    "static/js/2.2fb1699b.chunk.js",
-    "static/css/main.02da3485.chunk.css",
-    "static/js/main.94067a46.chunk.js"
+    "static/js/runtime-main.63d04dbd.js",
+    "static/js/2.a0a573b8.chunk.js",
+    "static/css/main.e53db856.chunk.css",
+    "static/js/main.a7dbf112.chunk.js"
   ]
 }
