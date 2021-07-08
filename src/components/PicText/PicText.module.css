@@ -4,15 +4,23 @@
   max-width: 1200px;
 }
 
+/* TO-DO check resizing and responsiveness */
 .background {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 100%;
-  height: 100%;
+  /* width: 100%; */
+  /* height: 100%; */
+  /* max-width: 100%; */
   margin-right: 20px;
 }
 
 .content {
   text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+  .PicText {
+    flex-direction: column;
+  }
 }
