@@ -8,30 +8,28 @@
   align-items: center;
 }
 
+.content h1 {
+  text-align: center;
+}
+
 .content p {
   max-width: 700px;
   padding-bottom: 30px;
   text-align: justify;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  column-gap: 30px;
-  row-gap: 30px;
-  margin: auto;
-  max-width: 1500px;
+.proyectImages {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  max-width: 1500px;
+  margin: auto;
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-transform: uppercase;
-  transition: 0.15s;
-  margin: 0 auto;
+  color: white;
+  margin: 10px;
+  text-align: center;
 }
 
 .card > span {
@@ -47,7 +45,7 @@
 }
 
 .card:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: 0.4s;
   cursor: pointer;
 }
