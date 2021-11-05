@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Eduardos-Portafolio/static/css/main.1d4d1e93.chunk.css",
-    "main.js": "/Eduardos-Portafolio/static/js/main.cb95791e.chunk.js",
-    "main.js.map": "/Eduardos-Portafolio/static/js/main.cb95791e.chunk.js.map",
+    "main.js": "/Eduardos-Portafolio/static/js/main.f0086b9a.chunk.js",
+    "main.js.map": "/Eduardos-Portafolio/static/js/main.f0086b9a.chunk.js.map",
     "runtime-main.js": "/Eduardos-Portafolio/static/js/runtime-main.63d04dbd.js",
     "runtime-main.js.map": "/Eduardos-Portafolio/static/js/runtime-main.63d04dbd.js.map",
-    "static/js/2.a7cda557.chunk.js": "/Eduardos-Portafolio/static/js/2.a7cda557.chunk.js",
-    "static/js/2.a7cda557.chunk.js.map": "/Eduardos-Portafolio/static/js/2.a7cda557.chunk.js.map",
+    "static/js/2.a59d8c4f.chunk.js": "/Eduardos-Portafolio/static/js/2.a59d8c4f.chunk.js",
+    "static/js/2.a59d8c4f.chunk.js.map": "/Eduardos-Portafolio/static/js/2.a59d8c4f.chunk.js.map",
     "static/js/3.47933821.chunk.js": "/Eduardos-Portafolio/static/js/3.47933821.chunk.js",
     "static/js/3.47933821.chunk.js.map": "/Eduardos-Portafolio/static/js/3.47933821.chunk.js.map",
     "index.html": "/Eduardos-Portafolio/index.html",
     "static/css/main.1d4d1e93.chunk.css.map": "/Eduardos-Portafolio/static/css/main.1d4d1e93.chunk.css.map",
-    "static/js/2.a7cda557.chunk.js.LICENSE.txt": "/Eduardos-Portafolio/static/js/2.a7cda557.chunk.js.LICENSE.txt"
+    "static/js/2.a59d8c4f.chunk.js.LICENSE.txt": "/Eduardos-Portafolio/static/js/2.a59d8c4f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.63d04dbd.js",
-    "static/js/2.a7cda557.chunk.js",
+    "static/js/2.a59d8c4f.chunk.js",
     "static/css/main.1d4d1e93.chunk.css",
-    "static/js/main.cb95791e.chunk.js"
+    "static/js/main.f0086b9a.chunk.js"
   ]
 }
