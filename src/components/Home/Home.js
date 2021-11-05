@@ -1,22 +1,20 @@
 import React from "react";
 import classNames from "classnames/bind";
-
-// import PropTypes from "prop-types";
 import styles from "./Home.module.css";
 import { useHistory } from "react-router-dom";
 const cx = classNames.bind(styles);
 
 const projects = [
-  { name: "Ninja Up!", backgroundUrl: "/melee.jpg" },
-  { name: "J Force", backgroundUrl: "/melee.jpg" },
-  { name: "Project: Demo RPG", backgroundUrl: "/melee.jpg" },
+  { name: "Ninja Up!", backgroundUrl: "/ninja1.png" },
+  { name: "J Force", backgroundUrl: "/jforce2.png" },
+  { name: "Project: Demo RPG", backgroundUrl: "/chrono_trigger.jpg" },
   {
     name: "Project: Minigame Battle Royale",
-    backgroundUrl: "/melee.jpg",
+    backgroundUrl: "/minigame2.png",
   },
   {
     name: "Project: Pokémon MMO",
-    backgroundUrl: "/melee.jpg",
+    backgroundUrl: "/pokemon1.png",
   },
 ];
 
@@ -42,7 +40,7 @@ const Home = () => {
           <div key={name} className={cx(styles.card)}>
             <div
               onClick={() => {
-                history.push(`/Eduardos-Portafolio/${name}`);
+                history.push(`/${name}`);
               }}
               style={{
                 backgroundImage: `url(${process.env.PUBLIC_URL}${backgroundUrl})`,
@@ -58,9 +56,5 @@ const Home = () => {
     </div>
   );
 };
-
-Home.propTypes = {};
-
-Home.defaultProps = {};
 
 export default Home;

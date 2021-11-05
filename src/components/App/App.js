@@ -1,12 +1,12 @@
 import React from "react";
-import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+import { Route, HashRouter, Switch } from "react-router-dom";
 import Home from "../Home/Home";
+import JForce from "../JForce/JForce";
 import NinjaUp from "../NinjaUp/NinjaUp";
-// import PropTypes from 'prop-types';
 import styles from "./App.module.css";
 
 const App = () => (
-  <Router>
+  <HashRouter basename="Eduardos-Portafolio">
     <div
       className={styles.wrapper}
       style={{
@@ -20,21 +20,20 @@ const App = () => (
         </div>
         <div className={styles.data}>
           <Switch>
-            <Route path="/Eduardos-Portafolio" exact>
+            <Route path="/" exact>
               <Home />
             </Route>
-            <Route path="/Eduardos-Portafolio/Ninja Up!" exact>
-              <NinjaUp />  
+            <Route path="/Ninja Up!" exact>
+              <NinjaUp />
+            </Route>
+            <Route path="/J Force" exact>
+              <JForce />
             </Route>
           </Switch>
         </div>
       </div>
     </div>
-  </Router>
+  </HashRouter>
 );
-
-// App.propTypes = {};
-
-// App.defaultProps = {};
 
 export default App;

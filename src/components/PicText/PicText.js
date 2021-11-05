@@ -5,11 +5,11 @@ import classNames from "classnames/bind";
 
 const cx = classNames.bind(styles);
 
-const PicText = ({ children, picFirst }) => (
+const PicText = ({ children, picFirst, imgFileName }) => (
   <div className={cx(styles.PicText, { picFirst })}>
     <div
       style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL}/melee.jpg`,
+        backgroundImage: `url(${process.env.PUBLIC_URL}/${imgFileName}`,
         width: 400,
         height: 400,
       }}
@@ -22,10 +22,12 @@ const PicText = ({ children, picFirst }) => (
 PicText.propTypes = {
   children: PropTypes.node.isRequired,
   picFirst: PropTypes.bool,
+  imgFileName: PropTypes.string,
 };
 
 PicText.defaultProps = {
   picFirst: false,
+  imgFileName: "melee.jpg",
 };
 
 export default PicText;

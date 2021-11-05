@@ -1,5 +1,4 @@
 import React from "react";
-// import PropTypes from "prop-types";
 import styles from "./NinjaUp.module.css";
 import PicText from "../PicText/PicText";
 
@@ -68,7 +67,7 @@ const NinjaUp = () => (
         Join the endless run action. Draw lines to create new springboards for
         your ninja to jump from so he can bounce his way up and up!​​​​​​​
       </p>
-      <PicText> {renderNinjaUpGamePlay()}</PicText>
+      <PicText imgFileName="ninja2.png"> {renderNinjaUpGamePlay()}</PicText>
       <div>
         <h1> Roles and responsibilities</h1>
         <p>
@@ -87,13 +86,11 @@ const NinjaUp = () => (
           the costumes.
         </p>
       </div>
-      <PicText picFirst> {renderNinjaUpGameDesign()}</PicText>
+      <PicText imgFileName="ninja5.png" picFirst>
+        {renderNinjaUpGameDesign()}
+      </PicText>
     </div>
   </div>
 );
-
-NinjaUp.propTypes = {};
-
-NinjaUp.defaultProps = {};
 
 export default NinjaUp;
