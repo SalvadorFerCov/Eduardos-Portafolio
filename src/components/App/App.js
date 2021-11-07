@@ -2,7 +2,10 @@ import React from "react";
 import { Route, HashRouter, Switch } from "react-router-dom";
 import Home from "../Home/Home";
 import JForce from "../JForce/JForce";
+import MiniGameBattleRoyal from "../MiniGameBattleRoyal/MiniGameBattleRoyal";
 import NinjaUp from "../NinjaUp/NinjaUp";
+import Pokemon from "../Pokemon/Pokemon";
+import ProjectDemoRPG from "../ProjectDemoRpg/ProjectDemoRPG";
 import styles from "./App.module.css";
 
 const App = () => (
@@ -28,6 +31,15 @@ const App = () => (
             </Route>
             <Route path="/J Force" exact>
               <JForce />
+            </Route>
+            <Route path="/Project: Demo RPG" exact>
+              <ProjectDemoRPG />
+            </Route>
+            <Route path="/Project: Minigame Battle Royale" exact>
+              <MiniGameBattleRoyal />
+            </Route>
+            <Route path="/Project: Pokémon MMO" exact>
+              <Pokemon />
             </Route>
           </Switch>
         </div>
