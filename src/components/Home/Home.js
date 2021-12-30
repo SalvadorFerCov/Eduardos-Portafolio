@@ -1,20 +1,20 @@
-import React from "react";
-import classNames from "classnames/bind";
-import styles from "./Home.module.css";
-import { useHistory } from "react-router-dom";
+import React from 'react';
+import classNames from 'classnames/bind';
+import styles from './Home.module.css';
+import { useHistory } from 'react-router-dom';
 const cx = classNames.bind(styles);
 
 const projects = [
-  { name: "Ninja Up!", backgroundUrl: "/ninja1.png" },
-  { name: "J Force", backgroundUrl: "/jforce2.png" },
-  { name: "Project: Demo RPG", backgroundUrl: "/chrono_trigger.jpg" },
+  { name: 'Ninja Up!', backgroundUrl: '/ninja1.png' },
+  { name: 'J Force', backgroundUrl: '/jforce2.png' },
+  { name: 'Project: Demo RPG', backgroundUrl: '/chrono_trigger.jpg' },
   {
-    name: "Project: Minigame Battle Royale",
-    backgroundUrl: "/minigame2.png",
+    name: 'Project: Minigame Battle Royale',
+    backgroundUrl: '/minigame2.png',
   },
   {
-    name: "Project: Pokémon MMO",
-    backgroundUrl: "/pokemon1.png",
+    name: 'Project: Pokémon MMO',
+    backgroundUrl: '/pokemon1.png',
   },
 ];
 

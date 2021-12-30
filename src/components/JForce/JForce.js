@@ -1,6 +1,7 @@
-import React from "react";
-import styles from "./JForce.module.css";
-import PicText from "../PicText/PicText";
+import React from 'react';
+import styles from './JForce.module.css';
+import PicText from '../PicText/PicText';
+import GridPicText from '../GridPicText/GridPicText';
 
 const renderJForceGamePlay = () => (
   <>
@@ -63,7 +64,16 @@ const JForce = () => (
         machines in order to survive. Coordination and communication is
         everything!
       </p>
-      <PicText imgFileName="jforce2.png"> {renderJForceGamePlay()}</PicText>
+      <GridPicText
+        imgFileNames={[
+          'Copy_of_reloj.png',
+          'Copy_of_mono_principal.png',
+          'Copy_of_press_a.png',
+          'Copy_of_tilesets_01.png',
+        ]}
+      >
+        {renderJForceGamePlay()}
+      </GridPicText>
       <div>
         <h1> Roles and responsibilities</h1>
         <p>

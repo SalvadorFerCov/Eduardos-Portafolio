@@ -1,7 +1,5 @@
 .wrapper {
-  display: flex;
-  height: 100vh;
-  width: 100vw;
+  background-size: cover;
 }
 
 .content {
@@ -9,7 +7,7 @@
   flex-direction: column;
   margin: auto;
   height: 100vh;
-  width: 80vw;
+  width: 100vw;
   color: white;
 }
 
@@ -17,14 +15,22 @@
   display: flex;
   align-items: center;
   height: 5vh;
+  padding: 15px;
 }
 
 .navBar li {
   list-style: none;
   margin: 15px;
 }
+
 .navBar li:hover {
   cursor: pointer;
+}
+
+.navBar li a {
+  color: #555;
+  font-size: xx-large;
+  text-decoration: none;
 }
 
 .data {

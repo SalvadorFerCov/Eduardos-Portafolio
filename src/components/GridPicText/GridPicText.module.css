@@ -1,0 +1,40 @@
+.GridPicText {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.picFirst {
+  flex-direction: row-reverse;
+}
+
+.background {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.content {
+  text-align: justify;
+}
+
+.gridWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  max-width: 300px;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .GridPicText {
+    flex-direction: column;
+  }
+
+  .background {
+    width: 230px !important;
+    height: 230px !important;
+  }
+}

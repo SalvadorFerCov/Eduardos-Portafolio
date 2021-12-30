@@ -1,25 +1,26 @@
-import React from "react";
-import { Route, HashRouter, Switch } from "react-router-dom";
-import Home from "../Home/Home";
-import JForce from "../JForce/JForce";
-import MiniGameBattleRoyal from "../MiniGameBattleRoyal/MiniGameBattleRoyal";
-import NinjaUp from "../NinjaUp/NinjaUp";
-import Pokemon from "../Pokemon/Pokemon";
-import ProjectDemoRPG from "../ProjectDemoRpg/ProjectDemoRPG";
-import styles from "./App.module.css";
+import React from 'react';
+import { Route, HashRouter, Switch, Link } from 'react-router-dom';
+import Home from '../Home/Home';
+import JForce from '../JForce/JForce';
+import MiniGameBattleRoyal from '../MiniGameBattleRoyal/MiniGameBattleRoyal';
+import NinjaUp from '../NinjaUp/NinjaUp';
+import Pokemon from '../Pokemon/Pokemon';
+import ProjectDemoRPG from '../ProjectDemoRpg/ProjectDemoRPG';
+import styles from './App.module.css';
 
 const App = () => (
   <HashRouter basename="Eduardos-Portafolio">
     <div
       className={styles.wrapper}
       style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL + "/background.jpg"})`,
+        backgroundImage: `url(${process.env.PUBLIC_URL + '/fondo3.jpg'})`,
       }}
     >
       <div className={styles.content}>
         <div className={styles.navBar}>
-          <li>Nav Bar</li>
-          <li>Nav Bar</li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
         </div>
         <div className={styles.data}>
           <Switch>
