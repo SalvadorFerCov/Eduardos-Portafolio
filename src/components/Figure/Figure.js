@@ -2,8 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import styles from "./Figure.module.css";
 
-const Figure = ({ imgFileName, figCaption, width, height }) => (
-  <figure>
+const Figure = ({ imgFileName, figCaption, width, height, className }) => (
+  <figure className={className}>
     <img
       src={`${process.env.PUBLIC_URL}/${imgFileName}`}
       alt=""
@@ -19,6 +19,7 @@ const Figure = ({ imgFileName, figCaption, width, height }) => (
 
 Figure.propTypes = {
   imgFileName: PropTypes.string.isRequired,
+  className: PropTypes.string,
   figCaption: PropTypes.string,
   width: PropTypes.number,
   height: PropTypes.number,
@@ -26,6 +27,7 @@ Figure.propTypes = {
 
 Figure.defaultProps = {
   figCaption: "",
+  className: "",
   width: 400,
   height: 400,
 };

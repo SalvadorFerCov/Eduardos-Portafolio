@@ -1,85 +1,47 @@
 import React from "react";
 import styles from "./Pokemon.module.css";
-import PicText from "../PicText/PicText";
+import Figure from "../Figure/Figure";
 
-const renderTabSystemCombat = () => (
-  <>
-    <h2>Combat - Tab system style</h2>
+const renderBoxDescription = () => (
+  <div className={styles.boxDescription}>
+    <h2>Back of the box description</h2>
     <p>
-      This style is based on the Tab system present in most MMOs. A global
-      cooldown will rule over the general use of abilities.
+      Your adventure awaits: Climb mountains, traverse oceans, explore dark
+      caves. Travel in a vast and expansive world where you will need to work
+      with your Pokémon to overcome the many ordeals you will face.
     </p>
-    <p>
-      The moves will be part of a combo or rotation where you start with Scratch
-      (a low level attack for example), then move to Cut and end with Slash,
-      increasing in overall damage with some moves buffing/debuffing the
-      Pokémon. As your Pokémon raises in level, they will learn new moves that
-      allow them to continue the combo. They will still only be able to learn 4
-      moves but this combo routes will count as 1 move. This paired with Trainer
-      abilities will make the combat more engaging.
-    </p>
-  </>
+  </div>
 );
 
-const renderPokenStyleCombat = () => (
-  <>
-    <h2>Combat - Pokkén style</h2>
+const renderRoles = () => (
+  <div>
+    <h2>Roles and responsibilities</h2>
     <p>
-      One of the most cool and engaging systems to date in a Pokémon spinoff is
-      the Pokkén Tournament game. It is a fighting game with a lot of moves and
-      combos designed specifically for each Pokémon. Each Pokémon felt unique
-      and were divided in categories.
+      <span className={styles.highlightWord}>Game Design.</span> Define the
+      basic concept of the game and extra features that will make the world feel
+      complete. This includes the 2 different types of combat, Photo mode, the
+      implementation of the TCG, and other technical data such as the possible
+      classes a Player could choose and how that could impact the overall
+      experience.
     </p>
-    <p>
-      For this reason, applying this same level of detail to each Pokémon would
-      be too much for an MMO. While more games in the genre are being developed
-      as an action based game, they do not have the 900+ Pokémon that would need
-      to be animated. A possible solution for this would be that the animations
-      are part of the move and not the Pokémon, same as the mainline games. But
-      for it to reach a certain level of quality I would suggest to make various
-      animations for the Pokémon as well so the player isn't distracted by those
-      details.
-    </p>
-  </>
-);
-const renderExtraFeatures = () => (
-  <>
-    <h2>Extra features</h2>
-    <ul>
-      <li>
-        Classes - The Class would be the main leveling system for your Trainer.
-        The Trainer will learn many support actions to help your Pokémon in
-        battle and also outside of it.
-      </li>
-      <li>
-        TCG - TCG is one of the most successful spin-offs of the Pokémon
-        franchise. Having the actual game inside this game could be yet another
-        way in which players interact with each other. Seasons, tournaments and
-        friendly battles could all help this feature.
-      </li>
-      <li>Photo Mode aka Pokémon Snap.</li>
-      <li>
-        Secret bases - Decorate your place and invite other people in. You can
-        trade, chat, battle play cards etc
-      </li>
-    </ul>
-    <p>… and many more!</p>
-  </>
+  </div>
 );
 
-const renderPokemonGameDesign = () => (
-  <>
+const renderGameDesign = () => (
+  <div>
     <h2>Game Design thought process and notes</h2>
     <p>
       The purpose of the game is to explore and bond with your Pokémon. Inspired
       by the early stories of the series creator, Satoshi Tajiri, who had so
       much joy and fun going out to nearby forests to explore and see who could
       find the most insects, this game should bring the same experience and
-      feelings to the players.
+      feelings to the players. I took inspiration from various Pokémon sources,
+      such as the main games, the TCG, Pokémon Snap, Pokkén Tournament DX,
+      Pokémon Adventures manga, among others.
     </p>
     <p>
       I think everyone that has played Pokémon has at least thought how cool
-      this world would be in an Online setting seeing players run all around.
+      this world would be in an Online setting; seeing players run all around.
       With that in mind, I created this project to try to capture everything a
       Pokémon MMO would need.
     </p>
@@ -97,18 +59,7 @@ const renderPokemonGameDesign = () => (
       alone, you have around 8-9 expansions already with original regions and
       never before seen Pokémon as part of this original game.
     </p>
-    <p>
-      I took inspiration from various Pokémon sources, such as: the main games,
-      the TCG, Pokémon Snap, Pokkén Tournament DX, Pokémon Adventures manga,
-      among others.
-    </p>
-    <p>
-      I’d like to clarify that this is the least “completed” project due to the
-      size of the idea. But I believe that the building blocks are there. For
-      more details, information and crazy ideas you can check the GDD I made
-      (warning: it is not the most organized document).
-    </p>
-  </>
+  </div>
 );
 
 const Pokemon = () => (
@@ -116,19 +67,76 @@ const Pokemon = () => (
     <div className={styles.content}>
       <h1> Project: Pokémon MMO</h1>
       <p>
-        Your adventure awaits: Climb mountains, traverse oceans, explore dark
-        caves. Travel in a vast and expansive world where you will need to work
-        with your Pokémon to overcome the many ordeals you will face.
+        DISCLAIMER: This is a project a little different than the other ones
+        presented in my portfolio. Due to the size of the project and idea, I
+        will only outline some of the main attractions and my design thoughts.
       </p>
-      <p>
-        This is a project a little different than the other ones presented in my
-        portfolio. Due to the size of an MMO, I will outline some of the main
-        attractions and my design thoughts. ​​​​​​​
-      </p>
-      <PicText imgFileName="pokemon3.png"> {renderTabSystemCombat()}</PicText>
-      <PicText textFirst imgFileName="pokemon4.png"> {renderPokenStyleCombat()}</PicText>
-      <PicText imgFileName="pokemon2.png"> {renderExtraFeatures()}</PicText>
-      <PicText textFirst imgFileName="pokemon5.png"> {renderPokemonGameDesign()}</PicText>
+      {renderBoxDescription()}
+
+      <div className={styles.grid}>
+        <Figure
+          imgFileName="Pokemon_battle1.jpg"
+          figCaption="Traditional combat style, with roots both in Pokémon and most MMOs."
+        />
+        <div className={styles.paragrapWrapper}>
+          <p>
+            <span className={styles.highlightWord}>
+              Tab system combat style.
+            </span>{" "}
+            This style is based on the Tab system present in most MMOs. A global
+            cooldown will rule over the general use of abilities.
+          </p>
+          <p>
+            The moves will be part of a combo or rotation where you start with a
+            low-level attack then chain increasingly damage moves. As your
+            Pokémon raises in level, they will learn new moves that allow them
+            to continue the combo. This paired with Trainer abilities will make
+            the combat more engaging.
+          </p>
+        </div>
+        <div className={styles.paragrapWrapper}>
+          <p>
+            <span className={styles.highlightWord}>Pokkén style combat.</span>{" "}
+            One of the coolest and engaging systems to date in a Pokémon spinoff
+            is the Pokkén Tournament game. It is a fighting game with a lot of
+            moves and combos designed specifically for each Pokémon. Each
+            Pokémon felt unique and were divided into categories.
+          </p>
+          <p>
+            For this reason, applying this same level of detail to each Pokémon
+            would be too much for an MMO. While more games in the genre are
+            being developed as action-based games, they do not have the 900+
+            Pokémon that would need to be animated. A possible solution for this
+            would be that the animations are part of the move and not the
+            Pokémon, the same as the mainline games.
+          </p>
+        </div>
+        <Figure
+          imgFileName="pokken_battle_system1.jpg"
+          figCaption="Action-oriented gameplay focused on the uniqueness of each Pokemon."
+        />
+      </div>
+      <h2>Extra features</h2>
+      <div className={styles.grid}>
+        <Figure
+          imgFileName="pokemon_secret_bases.jpg"
+          figCaption="Housing - Decorate your place and invite other people in. You can trade, chat, battle, play cards, etc."
+        />
+        <Figure
+          imgFileName="pokemon_adventures_3.jpg"
+          figCaption="Classes - The main leveling system for your Trainer. The Trainer will learn many support actions to help your Pokémon in battle and also outside of it."
+        />
+        <Figure
+          imgFileName="new_pokemon_snap_1.jpg"
+          figCaption=" Photo Mode - In-depth photo capabilities akin to Pokemon Snap."
+        />
+        <Figure
+          imgFileName="pokemon_tcg_online.png"
+          figCaption="Trading Card Game - Seasons, tournaments, and unranked battles. Cards you buy in the real world can be redeemed here also."
+        />
+      </div>
+      {renderRoles()}
+      {renderGameDesign()}
     </div>
   </div>
 );

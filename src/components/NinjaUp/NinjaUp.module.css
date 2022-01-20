@@ -17,3 +17,18 @@
 .content ul {
   max-width: 500px;
 }
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+}
+
+.gamePlayWrapper {
+  max-width: 480px;
+}
+
+.gamePlayFirstPargraph {
+  color: #b0bdcb;
+}

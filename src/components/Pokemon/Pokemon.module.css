@@ -16,3 +16,22 @@
 .content ul {
   max-width: 500px;
 }
+
+.boxDescription {
+  color: #b0bdcb;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+}
+
+.paragrapWrapper {
+  max-width: 480px;
+}
+
+.highlightWord {
+  color: #b0bdcb;
+}

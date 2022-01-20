@@ -17,3 +17,15 @@
 .content ul {
   max-width: 500px;
 }
+
+.backOfTheBox > p {
+  color: #b0bdcb;
+}
+
+.sideBySidePics {
+  display: flex;
+}
+
+.highlightWord {
+  color: #b0bdcb;
+}

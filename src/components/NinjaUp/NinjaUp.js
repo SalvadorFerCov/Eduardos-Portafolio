@@ -1,19 +1,17 @@
 import React from "react";
 import styles from "./NinjaUp.module.css";
-import PicText from "../PicText/PicText";
+import Figure from "../Figure/Figure";
 
 const renderNinjaUpGamePlay = () => (
-  <div>
+  <div className={styles.gamePlayWrapper}>
     <h2>Back of the box description</h2>
-
-    <div>
+    <div className={styles.gamePlayFirstPargraph}>
       <p>Jump your way into space with the most daring and cool pixel ninja!</p>
       <p>
         Join the endless run action. Draw lines to create new springboards for
         your ninja to jump from so he can bounce his way up and up!​​​​​​​
       </p>
     </div>
-
     <ul>
       <li>
         Dodge or try to hit a flurry of cool enemies from ninjas to fun UFOs.
@@ -37,24 +35,22 @@ const renderNinjaUpGameDesign = () => (
       special component to shine. We identified 2 special components: the
       jumping mechanic and costumes.
     </p>
-    <ul>
-      <li>
-        Jumping mechanic: We wanted to give the player more ways to keep jumping
-        and trying to reach new heights so we came up with the idea of power
-        ups. Extra lifes, invincibility for a short amount of time, hyper jump,
-        among others. We also added a EX jump after consecutive successful risky
-        jumps to reward users with high skill.
-      </li>
-      <li>
-        Costumes: The original had 10 costumes that mainly varied from color. We
-        decided to include 20+ costumes with different themes like animal,
-        job-related, music genre and even some pop-culture references. We then
-        decided to give the original 10 costumes a challenge associated to
-        unlock them. You purchased a random drop using Coins gained from various
-        sources: during your run, by hitting a special enemy and at the end of
-        your run based on your performance.
-      </li>
-    </ul>
+    <p>
+      Jumping mechanic: We wanted to give the player more ways to keep jumping
+      and trying to reach new heights so we came up with the idea of power ups.
+      Extra lifes, invincibility for a short amount of time, hyper jump, among
+      others. We also added a EX jump after consecutive successful risky jumps
+      to reward users with high skill.
+    </p>
+    <p>
+      Costumes: The original had 10 costumes that mainly varied from color. We
+      decided to include 20+ costumes with different themes like animal,
+      job-related, music genre and even some pop-culture references. We then
+      decided to give the original 10 costumes a challenge associated to unlock
+      them. You purchased a random drop using Coins gained from various sources:
+      during your run, by hitting a special enemy and at the end of your run
+      based on your performance.
+    </p>
   </div>
 );
 
@@ -62,16 +58,20 @@ const NinjaUp = () => (
   <div>
     <div className={styles.content}>
       <h1> Ninja Up! </h1>
-      <PicText
-        imgFileName="ninja4.png"
-        textFirst
-        figCaption="Draw lines for your ninja to bounce off of, trying to go up and reach the best height possible in an endless sea of challenges. "
-      >
+      <div className={styles.grid}>
         {renderNinjaUpGamePlay()}
-      </PicText>
-      <div className={styles.picSideBySide}>
-        <PicText imgFileName="ninja5.png" textFirst></PicText>
-        <PicText imgFileName="ninja2.png" textFirst></PicText>
+        <Figure
+          imgFileName="ninja4.png"
+          figCaption="Draw lines for your ninja to bounce off of, trying to go up and reach the best height possible in an endless sea of challenges."
+        />
+        <Figure
+          imgFileName="ninja5.png"
+          figCaption="Discover cool ninja power-ups that will help you reach incredible heights."
+        />
+        <Figure
+          imgFileName="ninja2.png"
+          figCaption="Challenge your friends or compete in global leaderboards."
+        />
       </div>
       <div>
         <h2> Roles and responsibilities</h2>
@@ -92,8 +92,6 @@ const NinjaUp = () => (
         </p>
       </div>
       {renderNinjaUpGameDesign()}
-      {/* <PicText imgFileName="ninja5.png" textFirst>
-      </PicText> */}
     </div>
   </div>
 );

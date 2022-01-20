@@ -3,6 +3,13 @@
   align-items: center;
   max-width: 1200px;
   margin: auto;
+  flex-direction: column;
+}
+
+.GridPicText span {
+  color: #ffffff;
+  font-family: helvetica, sans-serif;
+  font-size: 18px;
 }
 
 .textFirst {
@@ -24,7 +31,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
-  max-width: 300px;
+  max-width: 500px;
   margin: auto;
 }
 

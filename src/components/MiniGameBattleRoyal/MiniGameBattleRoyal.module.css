@@ -16,3 +16,17 @@
 .content ul {
   max-width: 500px;
 }
+
+.boxDescription {
+  color: #b0bdcb;
+}
+
+.caption {
+  color: #ffffff;
+  font-family: helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.highlightWord {
+  color: #b0bdcb;
+}

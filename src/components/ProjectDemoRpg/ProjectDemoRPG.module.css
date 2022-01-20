@@ -17,3 +17,19 @@
 .content ul {
   max-width: 500px;
 }
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+}
+
+.boxDescription {
+  color: #b0bdcb;
+  max-width: 480px;
+}
+
+.highlightWord {
+  color: #b0bdcb;
+}
