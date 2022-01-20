@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Eduardos-Portafolio/static/css/main.832801c8.chunk.css",
-    "main.js": "/Eduardos-Portafolio/static/js/main.23b0fdca.chunk.js",
-    "main.js.map": "/Eduardos-Portafolio/static/js/main.23b0fdca.chunk.js.map",
+    "main.css": "/Eduardos-Portafolio/static/css/main.4d620332.chunk.css",
+    "main.js": "/Eduardos-Portafolio/static/js/main.42ed2ed5.chunk.js",
+    "main.js.map": "/Eduardos-Portafolio/static/js/main.42ed2ed5.chunk.js.map",
     "runtime-main.js": "/Eduardos-Portafolio/static/js/runtime-main.62837b55.js",
     "runtime-main.js.map": "/Eduardos-Portafolio/static/js/runtime-main.62837b55.js.map",
-    "static/js/2.00df98b8.chunk.js": "/Eduardos-Portafolio/static/js/2.00df98b8.chunk.js",
-    "static/js/2.00df98b8.chunk.js.map": "/Eduardos-Portafolio/static/js/2.00df98b8.chunk.js.map",
+    "static/js/2.0db018a1.chunk.js": "/Eduardos-Portafolio/static/js/2.0db018a1.chunk.js",
+    "static/js/2.0db018a1.chunk.js.map": "/Eduardos-Portafolio/static/js/2.0db018a1.chunk.js.map",
     "static/js/3.44565f36.chunk.js": "/Eduardos-Portafolio/static/js/3.44565f36.chunk.js",
     "static/js/3.44565f36.chunk.js.map": "/Eduardos-Portafolio/static/js/3.44565f36.chunk.js.map",
     "index.html": "/Eduardos-Portafolio/index.html",
-    "static/css/main.832801c8.chunk.css.map": "/Eduardos-Portafolio/static/css/main.832801c8.chunk.css.map",
-    "static/js/2.00df98b8.chunk.js.LICENSE.txt": "/Eduardos-Portafolio/static/js/2.00df98b8.chunk.js.LICENSE.txt"
+    "static/css/main.4d620332.chunk.css.map": "/Eduardos-Portafolio/static/css/main.4d620332.chunk.css.map",
+    "static/js/2.0db018a1.chunk.js.LICENSE.txt": "/Eduardos-Portafolio/static/js/2.0db018a1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.62837b55.js",
-    "static/js/2.00df98b8.chunk.js",
-    "static/css/main.832801c8.chunk.css",
-    "static/js/main.23b0fdca.chunk.js"
+    "static/js/2.0db018a1.chunk.js",
+    "static/css/main.4d620332.chunk.css",
+    "static/js/main.42ed2ed5.chunk.js"
   ]
 }
