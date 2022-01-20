@@ -9,7 +9,7 @@ const projects = [
   { name: "J Force", backgroundUrl: "/jforce3.png" },
   // { name: "Project: Demo RPG", backgroundUrl: "/chrono_trigger.jpg" },
   // { name: "Project: Demo RPG", backgroundUrl: "/chrono_trigger2.jpg" },
-  { name: "Project: Demo RPG", backgroundUrl: "/testing2.PNG" },
+  { name: "Project: Demo RPG", backgroundUrl: "/testing3.png" },
   { 
     name: "Project: Minigame Battle Royale", 
     // backgroundUrl: "/minigamebattleroyale4.png", 
