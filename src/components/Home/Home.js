@@ -1,20 +1,23 @@
-import React from 'react';
-import classNames from 'classnames/bind';
-import styles from './Home.module.css';
-import { useHistory } from 'react-router-dom';
+import React from "react";
+import classNames from "classnames/bind";
+import styles from "./Home.module.css";
+import { useHistory } from "react-router-dom";
 const cx = classNames.bind(styles);
 
 const projects = [
-  { name: 'Ninja Up!', backgroundUrl: '/ninja3.png' },
-  { name: 'J Force', backgroundUrl: '/jforce3.png' },
-  { name: 'Project: Demo RPG', backgroundUrl: '/chrono_trigger.jpg' },
-  {
-    name: 'Project: Minigame Battle Royale',
-    backgroundUrl: '/minigamebattleroyale4.png',
+  { name: "Ninja Up!", backgroundUrl: "/ninja4.png" },
+  { name: "J Force", backgroundUrl: "/jforce3.png" },
+  // { name: "Project: Demo RPG", backgroundUrl: "/chrono_trigger.jpg" },
+  // { name: "Project: Demo RPG", backgroundUrl: "/chrono_trigger2.jpg" },
+  { name: "Project: Demo RPG", backgroundUrl: "/testing2.png" },
+  { 
+    name: "Project: Minigame Battle Royale", 
+    // backgroundUrl: "/minigamebattleroyale4.png", 
+    backgroundUrl: "/testing.png",
   },
   {
-    name: 'Project: Pokémon MMO',
-    backgroundUrl: '/pokemon_adventures_2.png',
+    name: "Project: Pokémon MMO",
+    backgroundUrl: "/pokemon_adventures_2.png",
   },
 ];
 
@@ -39,16 +42,16 @@ const Home = () => {
         {projects.map(({ name, backgroundUrl }) => (
           <div key={name} className={cx(styles.card)}>
             <div
+              className={styles.box}
               onClick={() => {
                 history.push(`/${name}`);
               }}
-              style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL}${backgroundUrl})`,
-                width: 400,
-                height: 400,
-              }}
-              className={styles.background}
-            ></div>
+            >
+              <img
+                src={`${process.env.PUBLIC_URL}/${backgroundUrl}`}
+                alt={name}
+              />
+            </div>
             <span>{name}</span>
           </div>
         ))}
