@@ -91,7 +91,7 @@ const JForce = () => (
           mood of the game.
         </p>
       </div>
-      <PicText imgFileName="jforce1.png" picFirst>
+      <PicText imgFileName="jforce1.png" textFirst>
         {renderJForceGameDesign()}
       </PicText>
     </div>

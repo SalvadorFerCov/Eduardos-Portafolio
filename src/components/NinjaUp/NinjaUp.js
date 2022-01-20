@@ -3,32 +3,32 @@ import styles from "./NinjaUp.module.css";
 import PicText from "../PicText/PicText";
 
 const renderNinjaUpGamePlay = () => (
-  <>
-    <h2>Gameplay</h2>
+  <div>
+    <h2>Back of the box description</h2>
+
+    <div>
+      <p>Jump your way into space with the most daring and cool pixel ninja!</p>
+      <p>
+        Join the endless run action. Draw lines to create new springboards for
+        your ninja to jump from so he can bounce his way up and up!​​​​​​​
+      </p>
+    </div>
+
     <ul>
       <li>
         Dodge or try to hit a flurry of cool enemies from ninjas to fun UFOs.
       </li>
       <li>
-        Draw lines for your ninja to bounce off of, trying to go up and reach
-        the best height possible in an endless sea of challenges.
-      </li>
-      <li>
         The shorter the rope, the higher and faster you will jump. Will you take
         the risk?
       </li>
-      <li>
-        Discover cool ninja power-ups  that will help you reach incredible
-        heights.
-      </li>
       <li>Unlock all the fun jump master characters and new pixel costumes.</li>
-      <li>Challenge your friends or compete in global leaderboards.</li>
     </ul>
-  </>
+  </div>
 );
 
 const renderNinjaUpGameDesign = () => (
-  <>
+  <div>
     <h2>Game Design thought process and notes</h2>
     <p>
       This was a special case because the game was already done by another team
@@ -43,7 +43,7 @@ const renderNinjaUpGameDesign = () => (
         and trying to reach new heights so we came up with the idea of power
         ups. Extra lifes, invincibility for a short amount of time, hyper jump,
         among others. We also added a EX jump after consecutive successful risky
-        jumps to reward users with high skill.{" "}
+        jumps to reward users with high skill.
       </li>
       <li>
         Costumes: The original had 10 costumes that mainly varied from color. We
@@ -55,21 +55,26 @@ const renderNinjaUpGameDesign = () => (
         your run based on your performance.
       </li>
     </ul>
-  </>
+  </div>
 );
 
 const NinjaUp = () => (
   <div>
     <div className={styles.content}>
       <h1> Ninja Up! </h1>
-      <p>Jump your way into space with the most daring and cool pixel ninja!</p>
-      <p>
-        Join the endless run action. Draw lines to create new springboards for
-        your ninja to jump from so he can bounce his way up and up!​​​​​​​
-      </p>
-      <PicText imgFileName="ninja2.png"> {renderNinjaUpGamePlay()}</PicText>
+      <PicText
+        imgFileName="ninja4.png"
+        textFirst
+        figCaption="Draw lines for your ninja to bounce off of, trying to go up and reach the best height possible in an endless sea of challenges. "
+      >
+        {renderNinjaUpGamePlay()}
+      </PicText>
+      <div className={styles.picSideBySide}>
+        <PicText imgFileName="ninja5.png" textFirst></PicText>
+        <PicText imgFileName="ninja2.png" textFirst></PicText>
+      </div>
       <div>
-        <h1> Roles and responsibilities</h1>
+        <h2> Roles and responsibilities</h2>
         <p>
           Producer: In charge of managing the team of developers, game
           designers, technical artists, QA so we could hit the established
@@ -77,7 +82,7 @@ const NinjaUp = () => (
           it with the Production manager.
         </p>
         <p>
-          Game Design: Worked with the other game designer to come up with the
+          Game Design: Worked with the other game designer to come up with the
           power-ups ideas, bonus rounds. I also helped with the random drop
           rules, % of rarity and logistics of it.
         </p>
@@ -86,9 +91,9 @@ const NinjaUp = () => (
           the costumes.
         </p>
       </div>
-      <PicText imgFileName="ninja5.png" picFirst>
-        {renderNinjaUpGameDesign()}
-      </PicText>
+      {renderNinjaUpGameDesign()}
+      {/* <PicText imgFileName="ninja5.png" textFirst>
+      </PicText> */}
     </div>
   </div>
 );

@@ -5,7 +5,7 @@
   max-width: 1200px;
 }
 
-.picFirst {
+.textFirst {
   flex-direction: row-reverse;
 }
 
@@ -14,6 +14,11 @@
   background-repeat: no-repeat;
   background-position: center center;
   margin-right: 20px;
+/* width: 200px; */
+}
+
+figcaption {
+  text-align: center;
 }
 
 .content {

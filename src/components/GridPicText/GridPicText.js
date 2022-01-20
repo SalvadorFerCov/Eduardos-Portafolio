@@ -20,8 +20,8 @@ const renderGridPic = (imgFileNames) => (
   </div>
 );
 
-const GridPicText = ({ children, picFirst, imgFileNames }) => (
-  <div className={cx(styles.GridPicText, { picFirst })}>
+const GridPicText = ({ children, textFirst, imgFileNames }) => (
+  <div className={cx(styles.GridPicText, { textFirst })}>
     {renderGridPic(imgFileNames)}
     <div className={styles.content}>{children}</div>
   </div>
@@ -29,13 +29,13 @@ const GridPicText = ({ children, picFirst, imgFileNames }) => (
 
 GridPicText.propTypes = {
   children: PropTypes.node.isRequired,
-  picFirst: PropTypes.bool,
+  textFirst: PropTypes.bool,
   imgFileName: PropTypes.string,
   imgFileName2: PropTypes.string,
 };
 
 GridPicText.defaultProps = {
-  picFirst: false,
+  textFirst: false,
   imgFileName: 'melee.jpg',
   imgFileName2: null,
 };

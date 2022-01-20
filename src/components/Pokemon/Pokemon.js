@@ -126,9 +126,9 @@ const Pokemon = () => (
         attractions and my design thoughts. ​​​​​​​
       </p>
       <PicText imgFileName="pokemon3.png"> {renderTabSystemCombat()}</PicText>
-      <PicText picFirst imgFileName="pokemon4.png"> {renderPokenStyleCombat()}</PicText>
+      <PicText textFirst imgFileName="pokemon4.png"> {renderPokenStyleCombat()}</PicText>
       <PicText imgFileName="pokemon2.png"> {renderExtraFeatures()}</PicText>
-      <PicText picFirst imgFileName="pokemon5.png"> {renderPokemonGameDesign()}</PicText>
+      <PicText textFirst imgFileName="pokemon5.png"> {renderPokemonGameDesign()}</PicText>
     </div>
   </div>
 );

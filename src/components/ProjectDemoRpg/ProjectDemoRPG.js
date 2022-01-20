@@ -88,7 +88,7 @@ const ProjectDemoRPG = () => (
           enemies.​​​​​​​
         </p>
       </div>
-      <PicText imgFileName="demo3.gif" picFirst>
+      <PicText imgFileName="demo3.gif" textFirst>
         {renderProjectDemoRPGGameDesign()}
       </PicText>
     </div>

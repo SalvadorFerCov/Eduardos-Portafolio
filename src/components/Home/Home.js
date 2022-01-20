@@ -5,16 +5,16 @@ import { useHistory } from 'react-router-dom';
 const cx = classNames.bind(styles);
 
 const projects = [
-  { name: 'Ninja Up!', backgroundUrl: '/ninja1.png' },
-  { name: 'J Force', backgroundUrl: '/jforce2.png' },
+  { name: 'Ninja Up!', backgroundUrl: '/ninja3.png' },
+  { name: 'J Force', backgroundUrl: '/jforce3.png' },
   { name: 'Project: Demo RPG', backgroundUrl: '/chrono_trigger.jpg' },
   {
     name: 'Project: Minigame Battle Royale',
-    backgroundUrl: '/minigame2.png',
+    backgroundUrl: '/minigamebattleroyale4.png',
   },
   {
     name: 'Project: Pokémon MMO',
-    backgroundUrl: '/pokemon1.png',
+    backgroundUrl: '/pokemon_adventures_2.png',
   },
 ];
 
