@@ -68,3 +68,12 @@ li {
   text-align: justify;
   margin: 10px;
 }
+
+a {
+  color: white;
+  font-size: large;
+}
+
+a:hover {
+  cursor: pointer;
+}

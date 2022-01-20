@@ -58,6 +58,11 @@ const NinjaUp = () => (
   <div>
     <div className={styles.content}>
       <h1> Ninja Up! </h1>
+      <div className={styles.linkWrapper}>
+        <a href="https://www.gameloft.com/en/game/ninja-up-mobile/">
+          Link to game page{" "}
+        </a>
+      </div>
       <div className={styles.grid}>
         {renderNinjaUpGamePlay()}
         <Figure

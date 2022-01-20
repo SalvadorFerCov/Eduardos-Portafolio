@@ -65,7 +65,10 @@ const backOFTheBox = () => (
 const JForce = () => (
   <div>
     <div className={styles.content}>
-      <h1> J Force</h1>
+      <h1>J Force </h1>
+      <a href="https://globalgamejam.org/2020/games/j-squad-1">
+        Link to game page{" "}
+      </a>
       {backOFTheBox()}
       <div className={styles.sideBySidePics}>
         <GridPicText

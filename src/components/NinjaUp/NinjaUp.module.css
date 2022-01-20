@@ -24,11 +24,15 @@
   justify-content: center;
   max-width: 1200px;
 }
-
+ 
 .gamePlayWrapper {
   max-width: 480px;
 }
 
 .gamePlayFirstPargraph {
   color: #b0bdcb;
+}
+
+.linkWrapper{
+  margin-bottom: 10px;
 }
