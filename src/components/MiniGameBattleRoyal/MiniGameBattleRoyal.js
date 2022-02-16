@@ -1,106 +1,108 @@
 import React from "react";
+import { Image } from "react-bootstrap";
 import styles from "./MiniGameBattleRoyal.module.css";
 
-const renderMiniGameBattleRoyalGameDesign = () => (
-  <>
-    <h2>Game Design thought process and notes</h2>
-    <p>
-      This is a project proposal that I sent to Fall Guys developers Tonic games
-      (back then Mediatonic). I already had the idea of a minigame battle royale
-      and I thought I could adapt some of my ideas to their style. I took into
-      consideration the way the game feels and the way players acted in the game
-      to create fun minigames where these expressions are welcomed.
-    </p>
-    <p>
-      Thanks to the amazing talent of @Manlio, I described how I wanted to
-      present my ideas: a new player should understand everything from a single
-      screenshot without too much text. After a couple of revisions, he created
-      something truly amazing. Be sure to check him out! I've added a
-      complimentary 2nd screen with more detailed information for the purposes
-      of this portfolio.
-    </p>
-    <p>
-      Besides the 3 minigames I designed (2 of those didn't receive the visual
-      treatment), I proposed the Variation System. This allowed the design team
-      to design a single minigame and modify some of the elements so the
-      experience was different. While there is an implementation of sorts of
-      this in the current game (minigames can have different obstacles) it feels
-      more random than well-thought.
-    </p>
-    <p>
-      What I was suggesting was clear feedback to the player that a game had
-      undergone a variation going from normal to hard to hardest. This can
-      create great moments of excitement after beating one of these levels, with
-      the rewards should also match the difficulty.
-    </p>
-    <p>
-      Not only does this affects the perception of players on the number of
-      minigames there are but it is easier on the production side too. Designing
-      one minigame and some variations of it is faster on game design, UX/UI,
-      development, QA, etc than designing 2-3 different minigames.
-    </p>
-  </>
-);
-
-const renderPic = (path, caption) => (
-  <>
-    <img
-      src={path}
-      alt={"name"}
-      style={{
-        width: 1200,
-        height: 800,
-        margin: " 15px",
-      }}
-    />
-    <span className={styles.caption}>{caption}</span>
-  </>
-);
-
-const renderBoxDescription = () => (
-  <div className={styles.boxDescription}>
-    <h2>Back of the box description</h2>
-    <p>
-      An arena/TV show-themed tournament on a dystopian future where
-      participants are comically injured, which is amusing and televised. It
-      consists of various quick challenges spaced in rounds where the lower
-      scores are eliminated until only 1 player is standing. ​​​​​​​
-    </p>
-  </div>
-);
-
-const renderRoles = () => (
-  <div>
-    <h2>Roles and responsibilities</h2>
-    <p>
-      <span className={styles.highlightWord}>Game Design.</span>Develop the
-      ideas of the minigames, which include: technical info such as players,
-      size of arena, objectives, etc. Adapted the whole concept to a
-      pre-existing game that offered similar gameplay.
-    </p>
-    <p>
-      <span className={styles.highlightWord}>Game art.</span>Deliver the
-      direction I wanted for the visual examples. worked closely with the artist
-      in charge of it.
-    </p>
-  </div>
-);
+import { Accordion, Container } from "react-bootstrap";
 
 const MiniGameBattleRoyal = () => (
-  <div>
-    <div className={styles.content}>
-      <h1> Project: Minigame Battle Royale </h1>
-      {renderBoxDescription()}
-      {renderPic(
-        `${process.env.PUBLIC_URL}/minigamebattleroyale1.png`,
-        "Visualization of gameplay."
-      )}
-      {renderPic(
-        `${process.env.PUBLIC_URL}/minigamebattleroyale3.png`,
-        "Detailed info of the minigame"
-      )}
-      {renderRoles()}
-      {renderMiniGameBattleRoyalGameDesign()}
+  <div className={styles.content}>
+    <div className={styles.title}>
+      <h1> Fall Guys: Ultimate Knockout</h1>
+      <div className={styles.linkWrapper}>
+        <span>Project Proposal</span>
+      </div>
+    </div>
+
+    <div className={styles.summary}>
+      <h2>Summary</h2>
+      <p>
+        This is a project proposal that I sent to Fall Guys developers Tonic
+        games (back then Mediatonic) to apply for a job with them.
+      </p>
+      <Image
+        src={`${process.env.PUBLIC_URL}/minigamebattleroyale1.png`}
+        style={{
+          maxWidth: 1200,
+          maxHeight: 800,
+          margin: " 15px",
+        }}
+      />
+      <Image
+        src={`${process.env.PUBLIC_URL}/minigamebattleroyale3.png`}
+        style={{
+          maxWidth: 1200,
+          maxHeight: 800,
+          margin: " 15px",
+        }}
+      />
+    </div>
+
+    <div className={styles.myWork}>
+      <Container>
+        <h2>My Work</h2>
+        <Accordion defaultActiveKey="0">
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>
+              <p>Roles and responsibilities</p>
+            </Accordion.Header>
+            <Accordion.Body>
+              <p>
+                Game Design. Develop the ideas of the minigames, which include:
+                technical info such as players, size of arena, objectives, etc.
+                Adapted the whole concept to a pre-existing game that offered
+                similar gameplay.
+              </p>
+              <p>
+                Game Art. Deliver the direction I wanted for the visual
+                examples. worked closely with the artist in charge of it.
+              </p>
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="1">
+            <Accordion.Header>
+              <p>Game Design notes</p>
+            </Accordion.Header>
+            <Accordion.Body>
+              <p>
+                It all started when I had an idea of a contest where players
+                compete in easy minigames and only one wins at the end. When
+                Fall Guys made its debut, I knew I had something great and it
+                was easier to adapt my ideas into their IP. I took into
+                consideration the way the game feels and the way players have
+                acted in the game to create fun minigames where these
+                expressions are welcomed.
+              </p>
+              <p>
+                Thanks to the amazing talent of @Manlio Perflore (be sure to
+                check him out!), the visualization came out amazing. The focus
+                was to have a single illustration be able to describe the
+                minigame to a new player. I've added a complimentary 2nd screen
+                with more detailed information for the purposes of this
+                portfolio.
+              </p>
+              <p>
+                Besides the 3 minigames I designed (2 of those didn't receive
+                the visual treatment but there is detailed documentation for
+                them), I proposed the Variation System.
+              </p>
+              <p>
+                Variation System. Modify an existing minigame and change it
+                enough to count it as a different minigame. Rues, objectives,
+                and visuals should change, but the base mechanic stays the same.
+                These new minigames should always be harder and the rewards
+                should match this difficulty.
+              </p>
+              <p>
+                Not only does this affects the perception of players on the
+                number of minigames there are but it is easier on the production
+                side too. Designing one minigame and some variations of it is
+                faster on game design, UX/UI, development, QA, etc than
+                designing 2-3 different minigames.
+              </p>
+            </Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
+      </Container>
     </div>
   </div>
 );

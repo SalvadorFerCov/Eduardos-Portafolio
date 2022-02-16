@@ -8,7 +8,7 @@
   margin: auto;
   height: 100vh;
   width: 100vw;
-  color: white;
+  /* color: white; */
 }
 
 .navBar {
@@ -16,6 +16,7 @@
   align-items: center;
   height: 5vh;
   padding: 15px;
+  background-color: black;
 }
 
 .navBar li {
@@ -28,7 +29,8 @@
 }
 
 .navBar li a {
-  color: #555;
+  color: white;
+  /* color: #555; */
   font-size: xx-large;
   text-decoration: none;
 }
@@ -53,7 +55,7 @@ h2 {
 
   font-style: normal;
   font-weight: 300;
-  color: #ffcc00;
+  /* color: #ffcc00; */
 }
 
 p {
@@ -63,14 +65,14 @@ p {
 
 li {
   font-size: 20px;
-  color: #ffffff;
+  /* color: #ffffff; */
   font-family: helvetica, sans-serif;
   text-align: justify;
   margin: 10px;
 }
 
 a {
-  color: white;
+  /* color: white; */
   font-size: large;
 }
 

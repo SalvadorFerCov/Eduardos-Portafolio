@@ -1,35 +1,56 @@
-/* This might be shareable */
 .content {
+  height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+/* Section 1  */
+
+.title {
+  background-color: #253551;
+
+  text-align: center;
+  height: 50%;
+  flex-shrink: 0;
+}
+
+/* Section 2  */
+.summary {
+  background-color: white;
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Section 3 */
+
+.storyBoard {
+  background-color: #253551;
+  flex: 1;
+}
+
+.storyBoardImages {
+  display: flex;
+  justify-content: center;
   align-items: center;
+  color: white;
 }
 
-.content h1 {
-  text-align: center;
+.myWork {
+  padding: 50px;
+  background-color: white;
+  flex: 1;
 }
 
-.content p {
-  max-width: 700px;
-  text-align: center;
-}
-
-.content ul {
-  max-width: 500px;
-}
-
-.grid {
+.cards {
+  gap: 150px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 1200px;
+  max-width: 1700px;
+  margin: auto;
 }
 
-.boxDescription {
-  color: #b0bdcb;
-  max-width: 480px;
-}
-
-.highlightWord {
-  color: #b0bdcb;
+.cardImages {
+  max-width: 400px;
 }

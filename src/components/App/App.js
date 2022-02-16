@@ -8,13 +8,16 @@ import Pokemon from '../Pokemon/Pokemon';
 import ProjectDemoRPG from '../ProjectDemoRpg/ProjectDemoRPG';
 import styles from './App.module.css';
 
+import 'bootstrap/dist/css/bootstrap.min.css'; 
+
+
 const App = () => (
   <HashRouter basename="Eduardos-Portafolio">
     <div
       className={styles.wrapper}
-      style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL + '/fondo3.jpg'})`,
-      }}
+      // style={{
+      //   backgroundImage: `url(${process.env.PUBLIC_URL + '/fondo3.jpg'})`,
+      // }}
     >
       <div className={styles.content}>
         <div className={styles.navBar}>
@@ -36,7 +39,7 @@ const App = () => (
             <Route path="/Project: Demo RPG" exact>
               <ProjectDemoRPG />
             </Route>
-            <Route path="/Project: Minigame Battle Royale" exact>
+            <Route path="/Fall Guys: Ultimate Knockout" exact>
               <MiniGameBattleRoyal />
             </Route>
             <Route path="/Project: Pokémon MMO" exact>
