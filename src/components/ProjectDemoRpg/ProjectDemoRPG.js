@@ -8,7 +8,6 @@ const ProjectDemoRPG = () => (
     <div className={styles.title}>
       <h1> Project: Sky Castle</h1>
     </div>
-
     <div className={styles.summary}>
       <h2>Summary</h2>
       <p>
@@ -25,7 +24,7 @@ const ProjectDemoRPG = () => (
     </div>
 
     <div className={styles.cards}>
-      <Card style={{ width: "18rem" }}>
+      <Card style={{ width: "20rem" }}>
         <Card.Img
           variant="top"
           src={`${process.env.PUBLIC_URL}/X-strike.png`}
@@ -38,7 +37,7 @@ const ProjectDemoRPG = () => (
           </Card.Text>
         </Card.Body>
       </Card>
-      <Card style={{ width: "18rem" }}>
+      <Card style={{ width: "20rem" }}>
         <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/demo1.jpg`} />
         <Card.Body>
           <Card.Title>Card Title</Card.Title>
@@ -50,7 +49,7 @@ const ProjectDemoRPG = () => (
           </Card.Text>
         </Card.Body>
       </Card>
-      <Card style={{ width: "18rem" }}>
+      <Card style={{ width: "20rem" }}>
         <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/demo3.gif`} />
         <Card.Body>
           <Card.Title>Card Title</Card.Title>
@@ -63,8 +62,8 @@ const ProjectDemoRPG = () => (
           </Card.Text>
         </Card.Body>
       </Card>
-      <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/ninja4.png`} />
+      <Card style={{ width: "20rem" }}>
+        <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/ronnie.jpg`} />
         <Card.Body>
           <Card.Title>Card Title</Card.Title>
         </Card.Body>

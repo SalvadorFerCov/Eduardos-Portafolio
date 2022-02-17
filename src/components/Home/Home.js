@@ -7,7 +7,7 @@ const cx = classNames.bind(styles);
 
 const projects = [
   { name: "Ninja Up!", backgroundUrl: "/ninja3.png" },
-  { name: "J Force", backgroundUrl: "/jforce3.png" },
+  { name: "J Force", backgroundUrl: "/ronnieCop.jpg" },
   {
     name: "Fall Guys: Ultimate Knockout",
     backgroundUrl: "/minigame3.PNG",

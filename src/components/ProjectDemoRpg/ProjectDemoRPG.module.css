@@ -8,10 +8,12 @@
 
 .title {
   background-color: #253551;
-
   text-align: center;
   height: 50%;
   flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Section 2  */
@@ -27,6 +29,9 @@
 .storyBoard {
   background-color: #253551;
   flex: 1;
+  color: white;
+  text-align: center;
+  padding-top: 25px;
 }
 
 .storyBoardImages {
@@ -40,6 +45,7 @@
   padding: 50px;
   background-color: white;
   flex: 1;
+  text-align: center;
 }
 
 .cards {

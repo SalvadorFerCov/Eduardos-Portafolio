@@ -1,4 +1,3 @@
-
 .content {
   height: 100vh;
   display: flex;
@@ -8,11 +7,14 @@
 /* Section 1  */
 
 .title {
-  background-color: lightgray;
   text-align: center;
   height: 50%;
   flex-shrink: 0;
   background-color: #253551;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Section 2  */
@@ -33,4 +35,5 @@
 
 .myWork h2 {
   color: white;
+  text-align: center;
 }

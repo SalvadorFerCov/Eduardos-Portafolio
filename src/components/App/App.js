@@ -1,24 +1,18 @@
-import React from 'react';
-import { Route, HashRouter, Switch, Link } from 'react-router-dom';
-import Home from '../Home/Home';
-import JForce from '../JForce/JForce';
-import MiniGameBattleRoyal from '../MiniGameBattleRoyal/MiniGameBattleRoyal';
-import NinjaUp from '../NinjaUp/NinjaUp';
-import Pokemon from '../Pokemon/Pokemon';
-import ProjectDemoRPG from '../ProjectDemoRpg/ProjectDemoRPG';
-import styles from './App.module.css';
+import React from "react";
+import { Route, HashRouter, Switch, Link } from "react-router-dom";
+import Home from "../Home/Home";
+import JForce from "../JForce/JForce";
+import MiniGameBattleRoyal from "../MiniGameBattleRoyal/MiniGameBattleRoyal";
+import NinjaUp from "../NinjaUp/NinjaUp";
+import Pokemon from "../Pokemon/Pokemon";
+import ProjectDemoRPG from "../ProjectDemoRpg/ProjectDemoRPG";
+import styles from "./App.module.css";
 
-import 'bootstrap/dist/css/bootstrap.min.css'; 
-
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => (
   <HashRouter basename="Eduardos-Portafolio">
-    <div
-      className={styles.wrapper}
-      // style={{
-      //   backgroundImage: `url(${process.env.PUBLIC_URL + '/fondo3.jpg'})`,
-      // }}
-    >
+    <div className={styles.wrapper}>
       <div className={styles.content}>
         <div className={styles.navBar}>
           <li>

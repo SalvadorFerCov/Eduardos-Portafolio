@@ -11,10 +11,19 @@
   height: 50%;
   flex-shrink: 0;
   background-color: #253551;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /* Section 2  */
 .summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
   background-color: white;
   padding: 50px;
 }
@@ -56,6 +65,7 @@
 
 .myWork h2 {
   color: white;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
