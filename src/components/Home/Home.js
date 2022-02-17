@@ -10,7 +10,7 @@ const projects = [
   { name: "J Force", backgroundUrl: "/ronnieCop.jpg" },
   {
     name: "Fall Guys: Ultimate Knockout",
-    backgroundUrl: "/minigame3.PNG",
+    backgroundUrl: "/minigame3.png",
   },
   { name: "Project: Demo RPG", backgroundUrl: "/testing3.png" },
 ];
