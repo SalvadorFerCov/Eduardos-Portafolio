@@ -60,8 +60,15 @@ const NinjaUp = () => (
     <div className={styles.myWork}>
       <Container>
         <h2>My Work</h2>
-        <Accordion defaultActiveKey="0" >
-          <Accordion.Item eventKey="0" style={{ backgroundColor: "#253551", paddingTop:'30px' }}>
+        <Accordion defaultActiveKey="0">
+          <Accordion.Item
+            eventKey="0"
+            style={{
+              backgroundColor: "#253551",
+              color: "white",
+              paddingTop: "30px",
+            }}
+          >
             <Accordion.Header>
               <p>Roles and responsibilities</p>
             </Accordion.Header>
@@ -83,7 +90,10 @@ const NinjaUp = () => (
               </p>
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="1" style={{ backgroundColor: "#253551" }}>
+          <Accordion.Item
+            eventKey="1"
+            style={{ backgroundColor: "#253551", color: "white" }}
+          >
             <Accordion.Header>
               <p>Game Design notes</p>
             </Accordion.Header>
