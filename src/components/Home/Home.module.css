@@ -13,13 +13,13 @@
   justify-content: center;
 }
 
-.content h1 {
-  text-align: center;
-}
-
-.content p {
+.content h3 {
   max-width: 700px;
   text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 5400;
+  color: #253551;
+  font-size: 50px;
 }
 
 .proyectImages {
@@ -39,8 +39,9 @@
   text-align: center;
 }
 
-.card > span {
-  margin-top: 10px;
+.card span {
+  margin-top: 30px;
+  font-size: 30px;
 }
 
 .box {
@@ -60,8 +61,12 @@ img {
 }
 
 @media screen and (max-width: 460px) {
-  .Home {
-    padding-bottom: 10px;
-    overflow-x: hidden;
+  .proyectImages {
+    padding: 20px;
+  }
+
+  .content h3 {
+    font-size: 33px;
+    max-width: 380px;
   }
 }

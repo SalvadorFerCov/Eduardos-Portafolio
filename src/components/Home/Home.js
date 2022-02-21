@@ -35,10 +35,10 @@ const Home = () => {
         ))}
       </div>
       <div className={styles.content}>
-        <p>
+        <h3>
           Hola! My name is Eduardo Peña and I am an Industrial Engineer by
           career but a Gamer by heart.
-        </p>
+        </h3>
       </div>
     </div>
   );

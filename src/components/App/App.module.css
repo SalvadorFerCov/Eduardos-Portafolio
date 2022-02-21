@@ -41,24 +41,19 @@
 
 h1 {
   color: #eee;
-  font-family: llxb;
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 70px;
+  font-size: 85px !important;
 }
 
 h2 {
-  font-size: 24px;
-  font-family: helvetica, sans-serif;
-
   font-style: normal;
   font-weight: 300;
+  color: #253551;
+  font-size: 50px !important;
 }
 
 p {
   text-align: justify !important;
-  font-size: 22px;
+  font-size: 32px;
 }
 
 li {
@@ -69,7 +64,8 @@ li {
 }
 
 a {
-  font-size: large;
+  color: white !important;
+  font-size: 30px;
 }
 
 a:hover {

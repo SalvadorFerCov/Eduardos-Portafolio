@@ -21,6 +21,10 @@ const JForce = () => (
         machines in order to survive. Coordination and communication are
         everything!
       </p>
+    </div>
+
+    <div className={styles.demo}>
+      <h2>Demo: Gameplay Mechanics</h2> 
       <div style={{ maxWidth: 660, height: "auto", margin: "auto" }}>
         <Ratio aspectRatio="16x9">
           <iframe
@@ -35,23 +39,23 @@ const JForce = () => (
       <Container>
         <h2>My Work</h2>
         <Accordion defaultActiveKey="0">
-          <Accordion.Item eventKey="0">
+          <Accordion.Item eventKey="0"  style={{ marginTop:'30px' }}> 
             <Accordion.Header>
               <p>Roles and responsibilities</p>
             </Accordion.Header>
             <Accordion.Body>
               <p>
-                Producer. In charge of managing the team of developers and
+                <b>Producer</b>. In charge of managing the team of developers and
                 technical artists so we could hit the established deadline.
                 Coordinating the team and taking decisions on what to keep/cut.
               </p>
               <p>
-                Game Design. Develop the whole concept of the game, the
+                <b>Game Design</b>. Develop the whole concept of the game, the
                 minigames and their mechanics, the genre, and the narrative.
                 Balanced all minigames mechanics.
               </p>
               <p>
-                Game Art. Helped the technical artists to come up with the theme
+               <b> Game Art</b>. Helped the technical artists to come up with the theme
                 and mood of the game.
               </p>
             </Accordion.Body>
@@ -82,12 +86,12 @@ const JForce = () => (
                 mechanics that elevate this concept.
               </p>
               <p>
-                Chaos manager. There is a manager that controls when a machine
+                <b>Chaos manager</b>. There is a manager that controls when a machine
                 will break. It is based on randomness but takes into account how
                 easy or difficult it is to fix the machine.
               </p>
               <p>
-                Harder every time. Each time a machine breaks, the minigame
+                <b>Harder every time</b>. Each time a machine breaks, the minigame
                 becomes more difficult to complete.
               </p>
               <p>

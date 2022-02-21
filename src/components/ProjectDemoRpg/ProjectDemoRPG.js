@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ProjectDemoRPG.module.css";
 
-import { Accordion, Card, Container, Image } from "react-bootstrap";
+import { Accordion, Container, Image } from "react-bootstrap";
 
 const ProjectDemoRPG = () => (
   <div className={styles.content}>
@@ -24,50 +24,63 @@ const ProjectDemoRPG = () => (
     </div>
 
     <div className={styles.cards}>
-      <Card style={{ width: "20rem" }}>
-        <Card.Img
-          variant="top"
+      <div className={styles.flexWrapper}>
+        <Image
+          className={styles.cardImages}
+          rounded
           src={`${process.env.PUBLIC_URL}/X-strike.png`}
         />
-        <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            During combat, unleash devastating Combos with 1, 2 or up to 3
-            characters. These Combos can then be modified with a Timed Command.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-      <Card style={{ width: "20rem" }}>
-        <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/demo1.jpg`} />
-        <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Timed Commands. If you time your button presses just right when
-            attacking an enemy, you’ll do extra damage or even unlock further
-            steps of the Combo. Can also be used to defend yourself from
-            incoming attacks.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-      <Card style={{ width: "20rem" }}>
-        <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/demo3.gif`} />
-        <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Starter vs Master. Choose between these 2 modes and use the one you
-            feel more comfortable with. Starter mode will slow down the action
-            before each input and show which button(s) to press. Master mode
-            will use fewer resources and hit harder but the action will move at
-            normal speed and not show any button indications on the screen.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-      <Card style={{ width: "20rem" }}>
-        <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/ronnie.jpg`} />
-        <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-        </Card.Body>
-      </Card>
+        <p>
+          During combat, unleash devastating Combos with 1, 2 or up to 3
+          characters. These Combos can then be modified with a Timed Command.
+        </p>
+      </div>
+      {/* <div className={styles.relativeWrapper}>
+        <div className={styles.cardDescription}>
+          During combat, unleash devastating Combos with 1, 2 or up to 3
+          characters. These Combos can then be modified with a Timed Command.
+        </div>
+        <Image
+          className={styles.cardImages}
+          rounded
+          src={`${process.env.PUBLIC_URL}/X-strike.png`}
+        />
+      </div> */}
+      <div className={styles.flexWrapper}>
+        <Image
+          className={styles.cardImages}
+          rounded
+          src={`${process.env.PUBLIC_URL}/demo1.jpg`}
+        />
+        <p>
+          <b>Timed Commands</b>. If you time your button presses just right when
+          attacking an enemy, you’ll do extra damage or even unlock further
+          steps of the Combo. Can also be used to defend yourself from incoming
+          attacks.
+        </p>
+      </div>
+      <div className={styles.flexWrapper}>
+        <Image
+          className={styles.cardImages}
+          rounded
+          src={`${process.env.PUBLIC_URL}/demo3.gif`}
+        />
+        <p>
+          <b> Starter vs Master</b>. Choose between these 2 modes and use the
+          one you feel more comfortable with. <b>Starter mode</b> will slow down
+          the action before each input and show which button(s) to press.
+          <b> Master mode</b> will use fewer resources and hit harder but the
+          action will move at normal speed and not show any button indications
+          on the screen.
+        </p>
+      </div>
+      <div className={styles.flexWrapper}>
+        <Image
+          className={styles.cardImages}
+          rounded
+          src={`${process.env.PUBLIC_URL}/ronnie.jpg`}
+        />
+      </div>
     </div>
 
     <div className={styles.storyBoard}>

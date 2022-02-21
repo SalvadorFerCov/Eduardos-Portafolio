@@ -17,6 +17,10 @@
   justify-content: center;
 }
 
+.title span {
+  font-size: 30px;
+}
+
 /* Section 2  */
 .summary {
   display: flex;

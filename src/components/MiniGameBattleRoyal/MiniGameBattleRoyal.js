@@ -22,7 +22,7 @@ const MiniGameBattleRoyal = () => (
       <Image
         src={`${process.env.PUBLIC_URL}/minigamebattleroyale1.png`}
         style={{
-          maxWidth: 1200,
+          maxWidth: 1700,
           maxHeight: 800,
           margin: " 15px",
         }}
@@ -30,7 +30,7 @@ const MiniGameBattleRoyal = () => (
       <Image
         src={`${process.env.PUBLIC_URL}/minigamebattleroyale3.png`}
         style={{
-          maxWidth: 1200,
+          maxWidth: 1700,
           maxHeight: 800,
           margin: " 15px",
         }}
@@ -41,24 +41,31 @@ const MiniGameBattleRoyal = () => (
       <Container>
         <h2>My Work</h2>
         <Accordion defaultActiveKey="0">
-          <Accordion.Item eventKey="0">
+          <Accordion.Item
+            eventKey="0"
+            style={{
+              backgroundColor: "#253551",
+              color: "white",
+              paddingTop: "30px",
+            }}
+          >
             <Accordion.Header>
               <p>Roles and responsibilities</p>
             </Accordion.Header>
             <Accordion.Body>
               <p>
-                Game Design. Develop the ideas of the minigames, which include:
+                <b>Game Design</b>. Develop the ideas of the minigames, which include:
                 technical info such as players, size of arena, objectives, etc.
                 Adapted the whole concept to a pre-existing game that offered
                 similar gameplay.
               </p>
               <p>
-                Game Art. Deliver the direction I wanted for the visual
+                <b>Game Art</b>. Deliver the direction I wanted for the visual
                 examples. worked closely with the artist in charge of it.
               </p>
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="1">
+          <Accordion.Item eventKey="1" style={{ backgroundColor: "#253551", color:'white' }}>
             <Accordion.Header>
               <p>Game Design notes</p>
             </Accordion.Header>
@@ -86,7 +93,7 @@ const MiniGameBattleRoyal = () => (
                 them), I proposed the Variation System.
               </p>
               <p>
-                Variation System. Modify an existing minigame and change it
+                <b>Variation System</b>. Modify an existing minigame and change it
                 enough to count it as a different minigame. Rues, objectives,
                 and visuals should change, but the base mechanic stays the same.
                 These new minigames should always be harder and the rewards

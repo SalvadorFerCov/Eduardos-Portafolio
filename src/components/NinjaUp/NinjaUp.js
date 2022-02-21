@@ -60,30 +60,30 @@ const NinjaUp = () => (
     <div className={styles.myWork}>
       <Container>
         <h2>My Work</h2>
-        <Accordion defaultActiveKey="0">
-          <Accordion.Item eventKey="0">
+        <Accordion defaultActiveKey="0" >
+          <Accordion.Item eventKey="0" style={{ backgroundColor: "#253551", paddingTop:'30px' }}>
             <Accordion.Header>
               <p>Roles and responsibilities</p>
             </Accordion.Header>
             <Accordion.Body>
               <p>
-                Producer: In charge of managing the team of developers, game
-                designers, technical artists, QA so we could hit the established
-                deadlines. Also planning the schedule of development and
-                communicating it with the Production manager.
+                <b>Producer</b>: In charge of managing the team of developers,
+                game designers, technical artists, QA so we could hit the
+                established deadlines. Also planning the schedule of development
+                and communicating it with the Production manager.
               </p>
               <p>
-                Game Design: Worked with the other game designer to come up with
-                the power-ups ideas, bonus rounds. I also helped with the random
-                drop rules, % of rarity and logistics of it.
+                <b>Game Design</b>: Worked with the other game designer to come
+                up with the power-ups ideas, bonus rounds. I also helped with
+                the random drop rules, % of rarity and logistics of it.
               </p>
               <p>
-                Game Art: Worked with the technical artists to come up with
-                themes for the costumes.
+                <b> Game Art</b>: Worked with the technical artists to come up
+                with themes for the costumes.
               </p>
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="1">
+          <Accordion.Item eventKey="1" style={{ backgroundColor: "#253551" }}>
             <Accordion.Header>
               <p>Game Design notes</p>
             </Accordion.Header>
@@ -96,24 +96,24 @@ const NinjaUp = () => (
                 finish, as we had to:
               </p>
               <p>
-                Game Design and Production. We analyzed the mechanics of the
-                original game and updated the gameplay. We wanted to give the
-                player more ways to keep jumping and trying to reach new heights
-                so we came up with the idea of power-ups, extra lives,
+                <b>Game Design and Production</b>. We analyzed the mechanics of
+                the original game and updated the gameplay. We wanted to give
+                the player more ways to keep jumping and trying to reach new
+                heights so we came up with the idea of power-ups, extra lives,
                 invincibility for a short amount of time, hyperjump, among
                 others. We also added an EX jump after consecutive successful
                 risky jumps to reward users with high skill.
               </p>
               <p>
-                Development. The original game was using outdated technologies
-                so we decided to remake the game in Unity. This helped us in the
-                long run as bugs and libraries were much easier to fix and
-                implement.
+                <b>Development</b>. The original game was using outdated
+                technologies so we decided to remake the game in Unity. This
+                helped us in the long run as bugs and libraries were much easier
+                to fix and implement.
               </p>
               <p>
-                Art. The original had 10 costumes that mainly varied in color.
-                We decided to include 20+ costumes with different themes like
-                animal, job-related, music genre, and even some pop-culture
+                <b>Art</b>. The original had 10 costumes that mainly varied in
+                color. We decided to include 20+ costumes with different themes
+                like animal, job-related, music genre, and even some pop-culture
                 references. We then decided to give the original 10 costumes a
                 challenge associated to unlock them. You purchased a random drop
                 using Coins gained from various sources: during your run, by
