@@ -170,6 +170,19 @@ const ProjectDemoRPG = () => (
         </Accordion>
       </Container>
     </div>
+
+    <div className={styles.references}>
+      <h2>References</h2>
+      <div className={styles.list}>
+        <p>In order of appearance:</p>
+        <ul>
+          <li>Image by Square-Enix</li>
+          <li>Image by Nintendo</li>
+          <li>Image by Japan Studio</li>
+          <li>Image by Arc System Works</li>
+        </ul>
+      </div>
+    </div>
   </div>
 );
 

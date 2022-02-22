@@ -90,3 +90,14 @@
 .flexWrapper p {
   font-size: 22px;
 }
+
+.references {
+  color: white;
+  background-color: #253551;
+  text-align: center;
+  padding: 50px;
+}
+
+.references h2 {
+  color: white;
+}

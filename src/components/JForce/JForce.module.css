@@ -17,6 +17,11 @@
   justify-content: center;
 }
 
+.title a {
+  color: white;
+  font-size: 30px;
+}
+
 /* Section 2  */
 .summary {
   background-color: white;

@@ -11,27 +11,12 @@
 }
 
 .navBar {
-  display: flex;
-  align-items: center;
-  height: 5vh;
-  padding: 15px;
-  background-color: #253551;
-  opacity: 0.7;
+  width: 100%;
+  background-color: #212529;
 }
 
-.navBar li {
-  list-style: none;
-  margin: 15px;
-}
-
-.navBar li:hover {
-  cursor: pointer;
-}
-
-.navBar li a {
-  color: white;
-  font-size: xx-large;
-  text-decoration: none;
+.navBar a {
+  font-size: 25px;
 }
 
 .data {
@@ -63,8 +48,8 @@ li {
   margin: 10px;
 }
 
-a {
-  color: white !important;
+.titleLinks {
+  color: white;
   font-size: 30px;
 }
 
