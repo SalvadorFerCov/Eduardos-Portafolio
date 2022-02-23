@@ -2,21 +2,45 @@
   height: 95vh;
   height: 100%;
   overflow: auto;
-  background-color: #253551;
-  color: white;
-  padding: 50px;
 }
 
-.Aboutme h2 {
+.title {
+  text-align: center;
+  height: 50%;
+  width: 100%;
+  flex-shrink: 0;
+  background-color: #253551;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title h2 {
   color: white;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 
 .content {
   font-family: Arial, Helvetica, sans-serif;
   max-width: 700px;
+  color: #253551;
+  padding: 50px;
 }
 
 .content p {
   font-size: 22px;
 }
+
+.content a {
+  color: black !important;
+} /* Unvisited link  */
+.content a:visited {
+  color: black !important;
+} /* Visited link    */
+.content a:hover {
+  color: black !important;
+} /* Mouse over link */
+.content a:active {
+  color: black !important;
+} /* Selected link   */

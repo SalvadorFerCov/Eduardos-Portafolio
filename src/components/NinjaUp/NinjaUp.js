@@ -74,18 +74,18 @@ const NinjaUp = () => (
             </Accordion.Header>
             <Accordion.Body>
               <p>
-                <b>Producer</b>: In charge of managing the team of developers,
+                <b>Producer</b>. In charge of managing the team of developers,
                 game designers, technical artists, QA so we could hit the
                 established deadlines. Also planning the schedule of development
                 and communicating it with the Production manager.
               </p>
               <p>
-                <b>Game Design</b>: Worked with the other game designer to come
+                <b>Game Design</b>. Worked with the other game designer to come
                 up with the power-ups ideas, bonus rounds. I also helped with
                 the random drop rules, % of rarity and logistics of it.
               </p>
               <p>
-                <b> Game Art</b>: Worked with the technical artists to come up
+                <b> Game Art</b>. Worked with the technical artists to come up
                 with themes for the costumes.
               </p>
             </Accordion.Body>

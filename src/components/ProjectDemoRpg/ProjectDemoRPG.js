@@ -132,7 +132,7 @@ const ProjectDemoRPG = () => (
             </Accordion.Header>
             <Accordion.Body>
               <p>
-                Game Design. Develop the whole concept of the game, which
+                <b>Game Design</b>. Develop the whole concept of the game, which
                 includes: the main gameplay loop, mechanics of each move, combo
                 mechanics, technical info such as timeframe of the button
                 presses in order for the attacks to be successful, damage

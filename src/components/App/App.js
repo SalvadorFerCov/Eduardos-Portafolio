@@ -23,15 +23,15 @@ const App = () => (
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
-                  <Nav.Link href="#About me">About me</Nav.Link>
                   <Nav.Link href="#Ninja Up!">Ninja Up!</Nav.Link>
                   <Nav.Link href="#J Force">J Force</Nav.Link>
                   <Nav.Link href="#Fall Guys: Ultimate Knockout">
                     Fall Guys: Ultimate Knockout
                   </Nav.Link>
-                  <Nav.Link href="#Project: Demo RPG">
-                    Project: Demo RPG
+                  <Nav.Link href="#Project: Sky Castle">
+                    Project: Sky Castle
                   </Nav.Link>
+                  <Nav.Link href="#About me">About me</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Container>
@@ -51,7 +51,7 @@ const App = () => (
             <Route path="/J Force" exact>
               <JForce />
             </Route>
-            <Route path="/Project: Demo RPG" exact>
+            <Route path="/Project: Sky Castle" exact>
               <ProjectDemoRPG />
             </Route>
             <Route path="/Fall Guys: Ultimate Knockout" exact>

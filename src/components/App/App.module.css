@@ -53,6 +53,19 @@ li {
   font-size: 30px;
 }
 
+a {
+  color: white;
+}
+
 a:hover {
   cursor: pointer;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:active {
+  color: white;
 }
