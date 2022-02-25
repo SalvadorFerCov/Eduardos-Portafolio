@@ -17,7 +17,7 @@ const App = () => (
     <div className={styles.wrapper}>
       <div className={styles.content}>
         <div className={styles.navBar}>
-          <Navbar bg="dark" variant="dark" expand="sm">
+          <Navbar bg="dark" variant="dark" expand="lg">
             <Container>
               <Navbar.Brand href="#">Eduardo's Portfolio</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />

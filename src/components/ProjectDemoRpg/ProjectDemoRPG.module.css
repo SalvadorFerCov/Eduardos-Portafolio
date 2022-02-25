@@ -33,16 +33,16 @@
 
 .storyBoard {
   background-color: #253551;
-  flex: 1;
-  color: white;
-  text-align: center;
-  padding-top: 25px;
-}
-
-.storyBoardImages {
   display: flex;
+  flex-direction: column;
+  padding: 50px;
   justify-content: center;
   align-items: center;
+  margin: auto;
+  width: 100%;
+}
+
+.storyBoard h2 {
   color: white;
 }
 
@@ -60,6 +60,7 @@
   justify-content: center;
   max-width: 1700px;
   margin: auto;
+  padding: 50px;
 }
 
 .cardImages {

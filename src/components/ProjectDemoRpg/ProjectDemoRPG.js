@@ -30,22 +30,11 @@ const ProjectDemoRPG = () => (
           rounded
           src={`${process.env.PUBLIC_URL}/X-strike.png`}
         />
-        <p>
+        <p style={{ backgroundColor: "#253551", color: "white", padding:'15px' }}>
           During combat, unleash devastating Combos with 1, 2 or up to 3
           characters. These Combos can then be modified with a Timed Command.
         </p>
       </div>
-      {/* <div className={styles.relativeWrapper}>
-        <div className={styles.cardDescription}>
-          During combat, unleash devastating Combos with 1, 2 or up to 3
-          characters. These Combos can then be modified with a Timed Command.
-        </div>
-        <Image
-          className={styles.cardImages}
-          rounded
-          src={`${process.env.PUBLIC_URL}/X-strike.png`}
-        />
-      </div> */}
       <div className={styles.flexWrapper}>
         <Image
           className={styles.cardImages}
@@ -78,48 +67,21 @@ const ProjectDemoRPG = () => (
         <Image
           className={styles.cardImages}
           rounded
-          src={`${process.env.PUBLIC_URL}/ronnie.jpg`}
+          src={`${process.env.PUBLIC_URL}/chrono-trigger-tripletech.gif`}
         />
       </div>
     </div>
 
     <div className={styles.storyBoard}>
       <h2>Storyboard: Tutorial Combo</h2>
-      <div className={styles.storyBoardImages}>
-        <Image
-          className={styles.cardImages}
-          src={`${process.env.PUBLIC_URL}/GGST_Ky_Kiske_6P.png`}
-        />
-        <p>Description</p>
-      </div>
-      <div className={styles.storyBoardImages}>
-        <Image
-          className={styles.cardImages}
-          src={`${process.env.PUBLIC_URL}/GGST_Ky_Kiske_cS.png`}
-        />
-        <p>Description</p>
-      </div>
-      <div className={styles.storyBoardImages}>
-        <Image
-          className={styles.cardImages}
-          src={`${process.env.PUBLIC_URL}/GGST_Ky_Kiske_fS.png`}
-        />
-        <p>Description</p>
-      </div>
-      <div className={styles.storyBoardImages}>
-        <Image
-          className={styles.cardImages}
-          src={`${process.env.PUBLIC_URL}/GGST_Ky_Kiske_214S.png`}
-        />
-        <p>Description</p>
-      </div>
-      <div className={styles.storyBoardImages}>
-        <Image
-          className={styles.cardImages}
-          src={`${process.env.PUBLIC_URL}/GGST_Ky_Kiske_623H.png`}
-        />
-        <p>Description</p>
-      </div>
+      <Image
+        src={`${process.env.PUBLIC_URL}/Storyboard_Tutorial_Combo.png`}
+        style={{
+          maxWidth: 800,
+          maxHeight: 1300,
+          margin: " 15px",
+        }}
+      />
     </div>
 
     <div className={styles.myWork}>
