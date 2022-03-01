@@ -25,15 +25,22 @@ const ProjectDemoRPG = () => (
 
     <div className={styles.cards}>
       <div className={styles.flexWrapper}>
+        <div className={styles.relativeWrapper}>
+          <div className={styles.cardDescription}>
+            You can challenge your friends for the highest score or rank up in
+            the global leaderboards.{" "}
+          </div>
+          <Image
+            className={styles.cardImages}
+            rounded
+            src={`${process.env.PUBLIC_URL}/X-strike.png`}
+          />
+        </div>
         <Image
           className={styles.cardImages}
           rounded
-          src={`${process.env.PUBLIC_URL}/X-strike.png`}
+          src={`${process.env.PUBLIC_URL}/chrono-trigger-tripletech.gif`}
         />
-        <p style={{ backgroundColor: "#253551", color: "white", padding:'15px' }}>
-          During combat, unleash devastating Combos with 1, 2 or up to 3
-          characters. These Combos can then be modified with a Timed Command.
-        </p>
       </div>
       <div className={styles.flexWrapper}>
         <Image
@@ -62,13 +69,6 @@ const ProjectDemoRPG = () => (
           action will move at normal speed and not show any button indications
           on the screen.
         </p>
-      </div>
-      <div className={styles.flexWrapper}>
-        <Image
-          className={styles.cardImages}
-          rounded
-          src={`${process.env.PUBLIC_URL}/chrono-trigger-tripletech.gif`}
-        />
       </div>
     </div>
 

@@ -94,7 +94,7 @@ const MiniGameBattleRoyal = () => (
               </p>
               <p>
                 <b>Variation System</b>. Modify an existing minigame and change it
-                enough to count it as a different minigame. Rues, objectives,
+                enough to count it as a different minigame. Rules, objectives,
                 and visuals should change, but the base mechanic stays the same.
                 These new minigames should always be harder and the rewards
                 should match this difficulty.
