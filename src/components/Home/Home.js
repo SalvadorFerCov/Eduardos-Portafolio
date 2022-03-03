@@ -12,7 +12,6 @@ const projects = [
     name: "Fall Guys: Ultimate Knockout",
     backgroundUrl: "/minigame3.png",
   },
-  { name: "Project: Sky Castle", backgroundUrl: "/testing3.png" },
 ];
 
 const Home = () => {
