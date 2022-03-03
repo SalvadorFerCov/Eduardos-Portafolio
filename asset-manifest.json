@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Eduardos-Portafolio/static/css/main.4f8866c3.chunk.css",
-    "main.js": "/Eduardos-Portafolio/static/js/main.7dc9bba5.chunk.js",
-    "main.js.map": "/Eduardos-Portafolio/static/js/main.7dc9bba5.chunk.js.map",
+    "main.js": "/Eduardos-Portafolio/static/js/main.791ee9b3.chunk.js",
+    "main.js.map": "/Eduardos-Portafolio/static/js/main.791ee9b3.chunk.js.map",
     "runtime-main.js": "/Eduardos-Portafolio/static/js/runtime-main.3ec47fc6.js",
     "runtime-main.js.map": "/Eduardos-Portafolio/static/js/runtime-main.3ec47fc6.js.map",
     "static/css/2.038361d8.chunk.css": "/Eduardos-Portafolio/static/css/2.038361d8.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.038361d8.chunk.css",
     "static/js/2.85b0bfdb.chunk.js",
     "static/css/main.4f8866c3.chunk.css",
-    "static/js/main.7dc9bba5.chunk.js"
+    "static/js/main.791ee9b3.chunk.js"
   ]
 }
