@@ -28,8 +28,8 @@ const Home = () => {
               }}
             >
               <Image src={`${process.env.PUBLIC_URL}/${backgroundUrl}`}></Image>
-            </div>
             <span>{name}</span>
+            </div>
           </div>
         ))}
       </div>

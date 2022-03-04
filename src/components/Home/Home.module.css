@@ -31,16 +31,15 @@
   margin: auto;
   background-color: #253551;
   align-content: center;
+  gap: 20px;
 }
 
 .card {
   color: white;
-  margin: 10px;
   text-align: center;
 }
 
 .card span {
-  margin-top: 30px;
   font-size: 30px;
 }
 
@@ -51,7 +50,7 @@
 
 img {
   width: 100%;
-  height: 85%;
+  height: 90%;
 }
 
 .card:hover {

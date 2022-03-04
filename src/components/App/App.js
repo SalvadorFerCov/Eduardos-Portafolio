@@ -28,9 +28,6 @@ const App = () => (
                   <Nav.Link href="#Fall Guys: Ultimate Knockout">
                     Fall Guys: Ultimate Knockout
                   </Nav.Link>
-                  <Nav.Link href="#Project: Sky Castle">
-                    Project: Sky Castle
-                  </Nav.Link>
                   <Nav.Link href="#About me">About me</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
