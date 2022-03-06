@@ -71,3 +71,31 @@ a:visited {
 a:active {
   color: white;
 }
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 70px !important;
+  }
+
+  h2 {
+    font-size: 40px !important;
+  }
+
+  p {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 60px !important;
+  }
+
+  h2 {
+    font-size: 30px !important;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}

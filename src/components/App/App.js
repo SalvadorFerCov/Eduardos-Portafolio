@@ -62,7 +62,7 @@ const App = () => {
         <div className={styles.content}>
           <div className={styles.navBar}>
             <Container>
-              <Navbar bg="dark" variant="dark" expand="lg">
+              <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
                 <Container>
                   <Navbar.Brand
                     onClick={() => changeAllNavItemStatus()}
