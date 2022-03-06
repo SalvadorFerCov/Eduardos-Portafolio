@@ -14,7 +14,7 @@ const projects = [
   },
 ];
 
-const Home = () => {
+const Home = ({ changeNavItemStatus }) => {
   const history = useHistory();
   return (
     <div className={styles.Home}>
@@ -25,10 +25,11 @@ const Home = () => {
               className={styles.box}
               onClick={() => {
                 history.push(`/${name}`);
+                changeNavItemStatus(name);
               }}
             >
               <Image src={`${process.env.PUBLIC_URL}/${backgroundUrl}`}></Image>
-            <span>{name}</span>
+              <span>{name}</span>
             </div>
           </div>
         ))}
