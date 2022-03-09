@@ -44,7 +44,7 @@
 }
 
 .box {
-  width: 370px;
+  max-width: 370px;
   height: 370px;
 }
 
@@ -59,13 +59,17 @@ img {
   cursor: pointer;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 768px) {
   .proyectImages {
     padding: 20px;
   }
 
   .content h3 {
-    font-size: 33px;
-    max-width: 380px;
+    font-size: 28px;
+    padding: 15px;
+  }
+
+  img {
+    height: 80%;
   }
 }

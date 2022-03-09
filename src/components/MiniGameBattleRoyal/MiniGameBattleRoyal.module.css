@@ -17,6 +17,11 @@
   justify-content: center;
 }
 
+.title h1 {
+  font-size: 75px !important;
+  text-align: center;
+}
+
 .title span {
   font-size: 30px;
 }
@@ -43,4 +48,10 @@
 .myWork h2 {
   color: white;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .title h1 {
+    font-size: 50px !important;
+  }
 }
