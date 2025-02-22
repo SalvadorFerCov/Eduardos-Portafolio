@@ -9,66 +9,32 @@ const AboutMe = () => {
       </div>
       <div className={styles.content}>
         <p>
-          I have worked as a Producer in the videogame industry and as a Project
-          Manager/Product Engineer in the software industry. I want to create
-          experiences that can make people around the world feel something.
+          I've worn a few hats in the tech world, from producing video games to
+          managing software projects. My passion? Crafting experiences that
+          resonate with people worldwide.
         </p>
         <p>
-          <i>…and cut</i>
+          I co-founded the software development company, AstraDev, and for four
+          years, I shared my insights on games in my video game column for
+          Loques magazine.
         </p>
         <p>
-          Are we done? I thought it would never end! Let me take a quick break,
-          relax my shoulders, stretch my legs, take a deep breath.
+          I also created and presented the "Game Design 101" seminar at the
+          CETYS: RENDER 2019 digital design congress.
         </p>
-        <p>Ah, much better, thank you for waiting.</p>
+        <p>
+          I was also a co-founder of a team that organized fighting game
+          tournaments, helping to establish a higher standard of quality within
+          the scene and build a strong community around competitive gaming.
+        </p>
         <p>
           So, with that out of the way, I can now tell you things that I have
           done and stuff that I like.
         </p>
-        <ul>
-          <li>Co-founded the software development company AstraDev.</li>
-          <li>
-            I have written the videogame column for{" "}
-            <a href="https://issuu.com/loques/docs/loquesdiciembre20">
-              Loques magazine
-            </a>{" "}
-            for 4 years.
-          </li>
-          <li>
-            Created the “Game Design 101” seminar for the digital design
-            congress “CETYS: RENDER 2019”.
-          </li>
-          <li>
-            I like to analyze and understand anything that gets me{" "}
-            <a href="https://www.youtube.com/watch?v=1RI5scXYhK0&ab_channel=HoldBacktoBlock">
-              {" "}
-              curious
-            </a>
-            .
-          </li>
-          <li>
-            Currently playing a lot of{" "}
-            <a href="https://na.finalfantasyxiv.com/lodestone/character/25714009/">
-              Final Fantasy XIV
-            </a>
-            .
-          </li>
-          <li>I love corgis but don’t have one (yet).</li>
-          <li>
-            My favorite anime is{" "}
-            <a href="https://www.youtube.com/watch?v=e3m6TIZxKhA&ab_channel=TheBeautyOf">
-              Cowboy Bebop
-            </a>
-            .
-          </li>
-          <li>
-            My favorite music group is{" "}
-            <a href="https://www.youtube.com/watch?v=Y3ywicffOj4&ab_channel=FleetwoodMac">
-              Fleetwood Mac
-            </a>
-            .
-          </li>
-        </ul>
+        <p>
+          When I'm not working, I'm usually playing something that sparks my
+          curiosity (currently, that's Final Fantasy XIV).
+        </p>
       </div>
     </div>
   );

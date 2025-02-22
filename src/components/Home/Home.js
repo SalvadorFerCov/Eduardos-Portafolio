@@ -6,9 +6,19 @@ import { Image } from "react-bootstrap";
 const cx = classNames.bind(styles);
 
 const projects = [
-  { name: "Ninja Up!", backgroundUrl: "/ninja3.png" },
-  { name: "J Force", backgroundUrl: "/J_Force_thumbnail.png" },
   {
+    id: "ninja_up",
+    name: "Ninja Up!",
+    backgroundUrl: "/ninja3.png",
+  },
+  // { name: "J Force", backgroundUrl: "/J_Force_thumbnail.png" },
+  {
+    id: "language_quest",
+    name: "Language Quest: Magnolia and the Lost City",
+    backgroundUrl: "/language_quest.png",
+  },
+  {
+    id: "fall_guys",
     name: "Fall Guys: Ultimate Knockout",
     backgroundUrl: "/minigame3.png",
   },
@@ -19,7 +29,7 @@ const Home = ({ changeNavItemStatus }) => {
   return (
     <div className={styles.Home}>
       <div className={styles.proyectImages}>
-        {projects.map(({ name, backgroundUrl }) => (
+        {projects.map(({ id, name, backgroundUrl }) => (
           <div key={name} className={cx(styles.card)}>
             <div
               className={styles.box}
@@ -28,7 +38,18 @@ const Home = ({ changeNavItemStatus }) => {
                 changeNavItemStatus(name);
               }}
             >
-              <Image src={`${process.env.PUBLIC_URL}/${backgroundUrl}`}></Image>
+              <Image
+                id={id}
+                src={`${process.env.PUBLIC_URL}/${backgroundUrl}`}
+                style={
+                  id === "language_quest"
+                    ? {
+                        objectFit: "contain",
+                        backgroundColor: "#021babff",
+                      }
+                    : {}
+                }
+              ></Image>
               <span>{name}</span>
             </div>
           </div>
@@ -36,8 +57,8 @@ const Home = ({ changeNavItemStatus }) => {
       </div>
       <div className={styles.content}>
         <h3>
-          Hola! My name is Eduardo Peña and I am an Industrial Engineer by
-          career but a Gamer by heart.
+          Eduardo Peña Junco - Game Designer & Producer. From concept to
+          execution, I pour my heart into every game.
         </h3>
       </div>
     </div>

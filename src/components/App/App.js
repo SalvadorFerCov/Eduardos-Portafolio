@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { Route, HashRouter, Switch } from "react-router-dom";
 import Home from "../Home/Home";
 import AboutMe from "../AboutMe/AboutMe";
-import JForce from "../JForce/JForce";
+// import JForce from "../JForce/JForce";
+import LanguageQuest from "../LanguageQuest/LanguageQuest";
 import MiniGameBattleRoyal from "../MiniGameBattleRoyal/MiniGameBattleRoyal";
 import NinjaUp from "../NinjaUp/NinjaUp";
 import Pokemon from "../Pokemon/Pokemon";
@@ -14,7 +15,8 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 
 const navItemsStatus = [
   { name: "Ninja Up!", active: false },
-  { name: "J Force", active: false },
+  // { name: "J Force", active: false },
+  { name: "Language Quest: Magnolia and the Lost City", active: false },
   { name: "Fall Guys: Ultimate Knockout", active: false },
   { name: "About me", active: false },
 ];
@@ -80,13 +82,26 @@ const App = () => {
                       >
                         Ninja Up!
                       </Nav.Link>
-                      <Nav.Link
+                      {/* <Nav.Link
                         id="test"
                         href="#J Force"
                         active={getNavItemStatusByName("J Force")}
                         onClick={() => changeNavItemStatus("J Force")}
                       >
                         J Force
+                      </Nav.Link> */}
+                      <Nav.Link
+                        href="#Language Quest: Magnolia and the Lost City"
+                        active={getNavItemStatusByName(
+                          "Language Quest: Magnolia and the Lost City"
+                        )}
+                        onClick={() =>
+                          changeNavItemStatus(
+                            "Language Quest: Magnolia and the Lost City"
+                          )
+                        }
+                      >
+                        Language Quest: Magnolia and the Lost City
                       </Nav.Link>
                       <Nav.Link
                         href="#Fall Guys: Ultimate Knockout"
@@ -123,8 +138,11 @@ const App = () => {
               <Route path="/Ninja Up!" exact>
                 <NinjaUp />
               </Route>
-              <Route path="/J Force" exact>
+              {/* <Route path="/J Force" exact>
                 <JForce />
+              </Route> */}
+              <Route path="/Language Quest: Magnolia and the Lost City" exact>
+                <LanguageQuest />
               </Route>
               <Route path="/Project: Sky Castle" exact>
                 <ProjectDemoRPG />
