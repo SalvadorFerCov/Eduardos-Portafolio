@@ -24,7 +24,7 @@ const JForce = () => (
     </div>
 
     <div className={styles.demo}>
-      <h2>Demo: Gameplay Mechanics</h2> 
+      <h2>Demo: Gameplay Mechanics</h2>
       <div style={{ maxWidth: 660, height: "auto", margin: "auto" }}>
         <Ratio aspectRatio="16x9">
           <iframe
@@ -39,14 +39,14 @@ const JForce = () => (
       <Container>
         <h2>My Work</h2>
         <Accordion defaultActiveKey="0">
-          <Accordion.Item eventKey="0"  style={{ marginTop:'30px' }}> 
+          <Accordion.Item eventKey="0" style={{ marginTop: "30px" }}>
             <Accordion.Header>
               <p>Roles and responsibilities</p>
             </Accordion.Header>
             <Accordion.Body>
               <p>
-                <b>Producer</b>. In charge of managing the team of developers and
-                technical artists so we could hit the established deadline.
+                <b>Producer</b>. In charge of managing the team of developers
+                and technical artists so we could hit the established deadline.
                 Coordinating the team and taking decisions on what to keep/cut.
               </p>
               <p>
@@ -55,8 +55,8 @@ const JForce = () => (
                 Balanced all minigames mechanics.
               </p>
               <p>
-               <b> Game Art</b>. Helped the technical artists to come up with the theme
-                and mood of the game.
+                <b> Game Art</b>. Helped the technical artists to come up with
+                the theme and mood of the game.
               </p>
             </Accordion.Body>
           </Accordion.Item>
@@ -86,13 +86,13 @@ const JForce = () => (
                 mechanics that elevate this concept.
               </p>
               <p>
-                <b>Chaos manager</b>. There is a manager that controls when a machine
-                will break. It is based on randomness but takes into account how
-                easy or difficult it is to fix the machine.
+                <b>Chaos manager</b>. There is a manager that controls when a
+                machine will break. It is based on randomness but takes into
+                account how easy or difficult it is to fix the machine.
               </p>
               <p>
-                <b>Harder every time</b>. Each time a machine breaks, the minigame
-                becomes more difficult to complete.
+                <b>Harder every time</b>. Each time a machine breaks, the
+                minigame becomes more difficult to complete.
               </p>
               <p>
                 Hiding the HP bar sets the tension right from the start and adds

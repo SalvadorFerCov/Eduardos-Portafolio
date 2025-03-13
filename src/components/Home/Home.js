@@ -11,7 +11,7 @@ const projects = [
     name: "Ninja Up!",
     backgroundUrl: "/ninja3.png",
   },
-  // { name: "J Force", backgroundUrl: "/J_Force_thumbnail.png" },
+  { name: "J Force", backgroundUrl: "/J_Force_thumbnail.png" },
   {
     id: "language_quest",
     name: "Language Quest: Magnolia and the Lost City",
